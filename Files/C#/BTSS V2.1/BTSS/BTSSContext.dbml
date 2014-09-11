@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="btsssql" Class="BTSSContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.ActiveDirectoryGroup" Member="ActiveDirectoryGroup">
+    <Type Name="ActiveDirectoryGroup">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(2550) NOT NULL" CanBeNull="false" />
+      <Column Name="Domain" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Audit" Member="Audit">
+    <Type Name="Audit">
+      <Column Name="AuditID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TableName" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="PK" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="FieldName" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="OldValue" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="NewValue" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Group" Member="Group">
+    <Type Name="Group">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Timestamp" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="FK_GroupModule_Group" Member="GroupModule" ThisKey="Id" OtherKey="GroupId" Type="GroupModule" DeleteRule="CASCADE" />
+      <Association Name="FK_UserGroup_Group" Member="UserGroup" ThisKey="Id" OtherKey="GroupId" Type="UserGroup" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GroupModule" Member="GroupModule">
+    <Type Name="GroupModule">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ModuleId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GroupId" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CanView" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanAdd" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanEdit" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CanDelete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="FK_GroupModule_Group" Member="Group" ThisKey="GroupId" OtherKey="Id" Type="Group" IsForeignKey="true" DeleteOnNull="true" />
+      <Association Name="FK_GroupModule_GroupModule1" Member="Module" ThisKey="ModuleId" OtherKey="Id" Type="Module" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Module" Member="Module">
+    <Type Name="Module">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Tag" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Association Name="FK_GroupModule_GroupModule1" Member="GroupModule" ThisKey="Id" OtherKey="ModuleId" Type="GroupModule" DeleteRule="NO ACTION" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Preferences" Member="Preferences">
+    <Type Name="Preferences">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Tag" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Project" Member="Project">
+    <Type Name="Project">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Version" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="BusinessOwner" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Tester" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="OtherContact" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Provider" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="File" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="EnableBypassKey" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="HasOtherDetails" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="MDW" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="Datasource" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DatabaseName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SharepointURL" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="PathErrorLog" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="FK_UserProject_Project" Member="UserProject" ThisKey="Id" OtherKey="ProjId" Type="UserProject" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TempTable" Member="TempTable">
+    <Type Name="TempTable">
+      <Column Name="val" Member="Val" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.User" Member="User">
+    <Type Name="User">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedBy" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ModifiedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TimeStamp" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="FK_UserGroup_User" Member="UserGroup" ThisKey="Id" OtherKey="UserId" Type="UserGroup" DeleteRule="CASCADE" />
+      <Association Name="FK_UserProject_User" Member="UserProject" ThisKey="Id" OtherKey="UserId" Type="UserProject" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserGroup" Member="UserGroup">
+    <Type Name="UserGroup">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GroupId" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="FK_UserGroup_Group" Member="Group" ThisKey="GroupId" OtherKey="Id" Type="Group" IsForeignKey="true" DeleteOnNull="true" />
+      <Association Name="FK_UserGroup_User" Member="User" ThisKey="UserId" OtherKey="Id" Type="User" IsForeignKey="true" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserProject" Member="UserProject">
+    <Type Name="UserProject">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ProjId" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="FK_UserProject_Project" Member="Project" ThisKey="ProjId" OtherKey="Id" Type="Project" IsForeignKey="true" DeleteOnNull="true" />
+      <Association Name="FK_UserProject_User" Member="User" ThisKey="UserId" OtherKey="Id" Type="User" IsForeignKey="true" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.AlterObject" Method="AlterObject">
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.CreateAuditTrigger" Method="CreateAuditTrigger">
+    <Parameter Name="TableName" Parameter="tableName" Type="System.String" DbType="VarChar(200)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.CreateBackUp" Method="CreateBackUp">
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.CreateSQLUSER" Method="CreateSQLUSER">
+    <ElementType Name="CreateSQLUSERResult">
+      <Column Name="Login Type" Member="LoginType" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="srvLogin" Member="SrvLogin" Type="System.String" DbType="Char(45)" CanBeNull="true" />
+      <Column Name="dbUser" Member="DbUser" Type="System.String" DbType="Char(25)" CanBeNull="true" />
+      <Column Name="dbRole" Member="DbRole" Type="System.String" DbType="Char(25)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetAccessRights" Method="GetAccessRights">
+    <Parameter Name="UserId" Parameter="userId" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ModuleTag" Parameter="moduleTag" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetAccessRightsResult">
+      <Column Name="CanView" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CanAdd" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CanEdit" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CanDelete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetActiveDirectoryGroupList" Method="GetActiveDirectoryGroupList">
+    <ElementType Name="GetActiveDirectoryGroupListResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(2550)" CanBeNull="true" />
+      <Column Name="Domain" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetAuditList" Method="GetAuditList" HasMultipleResults="true">
+    <Parameter Name="UserName" Parameter="userName" Type="System.String" DbType="VarChar(128)" />
+    <Parameter Name="TableName" Parameter="tableName" Type="System.String" DbType="VarChar(128)" />
+    <ElementType Name="GetAuditListResult">
+      <Column Name="AuditID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TableName" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="PK" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="FieldName" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="OldValue" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="NewValue" Type="System.String" DbType="VarChar(1000)" CanBeNull="true" />
+      <Column Name="UpdateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetGroupDetails" Method="GetGroupDetails">
+    <Parameter Name="Id" Parameter="id" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetGroupDetailsResult">
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetGroupList" Method="GetGroupList">
+    <ElementType Name="GetGroupListResult">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetGroupModule" Method="GetGroupModule">
+    <Parameter Name="GroupId" Parameter="groupId" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetGroupModuleResult">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="GroupId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ModuleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CanView" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CanAdd" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CanEdit" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="CanDelete" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetModuleList" Method="GetModuleList">
+    <ElementType Name="GetModuleListResult">
+      <Column Name="Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tag" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetNextCode" Method="GetNextCode">
+    <Parameter Name="TableName" Parameter="tableName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="FieldName" Parameter="fieldName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Lenght" Parameter="lenght" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="Id" Parameter="id" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.GetProjectDetails" Method="GetProjectDetails">
+    <Parameter Name="Id" Parameter="id" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetProjectDetailsResult">
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tester" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OtherContact" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Provider" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="File" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="EnableBypassKey" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HasOtherDetails" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MDW" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Datasource" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DatabaseName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SharepointURL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathErrorLog" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetProjectList" Method="GetProjectList">
+    <ElementType Name="GetProjectListResult">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetProjectListForReport" Method="GetProjectListForReport">
+    <ElementType Name="GetProjectListForReportResult">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tester" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OtherContact" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Provider" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="File" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="EnableBypassKey" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HasOtherDetails" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MDW" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Datasource" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DatabaseName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SharepointURL" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathErrorLog" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="CreatedBy" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetTableNames" Method="GetTableNames">
+    <ElementType Name="GetTableNamesResult">
+      <Column Name="TableName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetUserDetails" Method="GetUserDetails">
+    <Parameter Name="Id" Parameter="id" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetUserDetailsResult">
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetUserDetailsByUserName" Method="GetUserDetailsByUserName">
+    <Parameter Name="UserName" Parameter="userName" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetUserDetailsByUserNameResult">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FullName" Type="System.String" DbType="VarChar(102)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetUserGroup" Method="GetUserGroup">
+    <Parameter Name="UserId" Parameter="userId" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetUserGroupResult">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="UserId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsSelected" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="GroupId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetUserList" Method="GetUserList">
+    <ElementType Name="GetUserListResult">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MiddleName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetUserProjectList" Method="GetUserProjectList">
+    <Parameter Name="UserId" Parameter="userId" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetUserProjectListResult">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="UserId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsSelected" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="ProjId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.GetUserProjects" Method="GetUserProjects">
+    <Parameter Name="UserId" Parameter="userId" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="GetUserProjectsResult">
+      <Column Name="Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Desc" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Version" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="BusinessOwner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tester" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="OtherContact" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Provider" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="File" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="EnableBypassKey" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="HasOtherDetails" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="MDW" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Datasource" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DatabaseName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UserID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.IsCodeExist" Method="IsCodeExist">
+    <Parameter Name="OriginalValue" Parameter="originalValue" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CurrentValue" Parameter="currentValue" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Table" Parameter="table" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Field" Parameter="field" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="VarChar(10)" />
+    <ElementType Name="IsCodeExistResult">
+      <Column Name="IsExist" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.IsGroupAllowToDelete" Method="IsGroupAllowToDelete" IsComposable="true">
+    <Parameter Name="GroupId" Parameter="groupId" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Boolean" DbType="Bit" />
+  </Function>
+  <Function Name="dbo.IsProjectAllowToDelete" Method="IsProjectAllowToDelete" IsComposable="true">
+    <Parameter Name="ProjectId" Parameter="projectId" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Boolean" DbType="Bit" />
+  </Function>
+  <Function Name="dbo.IsUserValid" Method="IsUserValid" IsComposable="true">
+    <Parameter Name="UserName" Parameter="userName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Boolean" DbType="Bit" />
+  </Function>
+  <Function Name="dbo.RestoreDatabase" Method="RestoreDatabase">
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveActiveDirectoryGroup" Method="SaveActiveDirectoryGroup">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="Domain" Parameter="domain" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveGroup" Method="SaveGroup">
+    <Parameter Name="Id" Parameter="id" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Desc" Parameter="desc" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveGroupModule" Method="SaveGroupModule">
+    <Parameter Name="Id" Parameter="id" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="GroupId" Parameter="groupId" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ModuleId" Parameter="moduleId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CanView" Parameter="canView" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanAdd" Parameter="canAdd" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanEdit" Parameter="canEdit" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanDelete" Parameter="canDelete" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SavePreferences" Method="SavePreferences">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Tag" Parameter="tag" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Value" Parameter="value" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveProject" Method="SaveProject">
+    <Parameter Name="Id" Parameter="id" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Desc" Parameter="desc" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="Version" Parameter="version" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="IsActive" Parameter="isActive" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="BusinessOwner" Parameter="businessOwner" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Tester" Parameter="tester" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="OtherContact" Parameter="otherContact" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Provider" Parameter="provider" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="File" Parameter="file" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="EnableByPassKey" Parameter="enableByPassKey" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="HasOtherDetails" Parameter="hasOtherDetails" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="MDW" Parameter="mDW" Type="System.String" DbType="VarChar(255)" />
+    <Parameter Name="Datasource" Parameter="datasource" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="DatabaseName" Parameter="databaseName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="SharepointURL" Parameter="sharepointURL" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="PathErrorLog" Parameter="pathErrorLog" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveTempTable" Method="SaveTempTable">
+    <Parameter Name="val" Type="System.String" DbType="NVarChar(50)" Direction="InOut" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveUser" Method="SaveUser">
+    <Parameter Name="Id" Parameter="id" Type="System.String" DbType="VarChar(50)" Direction="InOut" />
+    <Parameter Name="LastName" Parameter="lastName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="FirstName" Parameter="firstName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MiddleName" Parameter="middleName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="UserName" Parameter="userName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="CreatedBy" Parameter="createdBy" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Operation" Parameter="operation" Type="System.String" DbType="VarChar(10)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveUserGroup" Method="SaveUserGroup">
+    <Parameter Name="Id" Parameter="id" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="GroupId" Parameter="groupId" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.SaveUserProject" Method="SaveUserProject">
+    <Parameter Name="Id" Parameter="id" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="UserId" Parameter="userId" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ProjId" Parameter="projId" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+  <Function Name="dbo.TestSQL" Method="TestSQL">
+    <Return Type="System.Int32" DbType="Int" />
+  </Function>
+</Database>

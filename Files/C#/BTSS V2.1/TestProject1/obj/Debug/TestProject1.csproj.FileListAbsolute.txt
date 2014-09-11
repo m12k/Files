@@ -1,0 +1,11 @@
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.pdb
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\BTSS.Common.dll
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\BTSS.Data.dll
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\BTSS.Logic.dll
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\BTSS.Common.pdb
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\BTSS.Data.pdb
+C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\BTSS.Logic.pdb
+C:\Projects\C#\BTSS V3\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\BTSS V3\TestProject1\obj\Debug\TestProject1.dll
+C:\Projects\C#\BTSS V3\TestProject1\obj\Debug\TestProject1.pdb

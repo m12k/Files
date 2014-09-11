@@ -1,0 +1,10 @@
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\bin\Release\BTSS.Logic.dll.config
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\bin\Release\BTSS.Logic.dll
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\bin\Release\BTSS.Logic.pdb
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\bin\Release\BTSS.Common.dll
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\bin\Release\BTSS.Data.dll
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\bin\Release\BTSS.Common.pdb
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\bin\Release\BTSS.Data.pdb
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\obj\Release\BTSS.Logic.dll
+C:\Projects\C#\BTSS V2.1\BTSS.Logic\obj\Release\BTSS.Logic.pdb

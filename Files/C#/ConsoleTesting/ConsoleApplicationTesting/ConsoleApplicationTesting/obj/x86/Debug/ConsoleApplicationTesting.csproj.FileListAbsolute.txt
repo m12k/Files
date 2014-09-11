@@ -1,0 +1,14 @@
+C:\Documents and Settings\cajandm\Local Settings\Application Data\Temporary Projects\ConsoleApplicationTesting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\cajandm\Local Settings\Application Data\Temporary Projects\ConsoleApplicationTesting\bin\Debug\ConsoleApplicationTesting.exe
+C:\Documents and Settings\cajandm\Local Settings\Application Data\Temporary Projects\ConsoleApplicationTesting\bin\Debug\ConsoleApplicationTesting.pdb
+C:\Documents and Settings\cajandm\Local Settings\Application Data\Temporary Projects\ConsoleApplicationTesting\obj\x86\Debug\ConsoleApplicationTesting.exe
+C:\Documents and Settings\cajandm\Local Settings\Application Data\Temporary Projects\ConsoleApplicationTesting\obj\x86\Debug\ConsoleApplicationTesting.pdb
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\obj\x86\Debug\ConsoleApplicationTesting.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\obj\x86\Debug\ConsoleApplicationTesting.pdb
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\bin\Debug\ConsoleApplicationTesting.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\bin\Debug\ConsoleApplicationTesting.pdb
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\bin\Debug\Iesi.Collections.dll
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\bin\Debug\NHibernate.dll
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\bin\Debug\Iesi.Collections.xml
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\ConsoleApplicationTesting\bin\Debug\NHibernate.xml

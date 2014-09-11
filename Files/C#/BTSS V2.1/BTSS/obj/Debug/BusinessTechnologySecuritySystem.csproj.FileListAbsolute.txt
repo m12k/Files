@@ -1,0 +1,116 @@
+C:\Projects\C#\BTSS\BTSS\bin\Debug\Biztech.exe.config
+C:\Projects\C#\BTSS\BTSS\bin\Debug\Biztech.exe.manifest
+C:\Projects\C#\BTSS\BTSS\bin\Debug\Biztech.application
+C:\Projects\C#\BTSS\BTSS\bin\Debug\Biztech.exe
+C:\Projects\C#\BTSS\BTSS\bin\Debug\Biztech.pdb
+C:\Projects\C#\BTSS\BTSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.FormLogin1.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.FormAbout.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.Forms.FormInitialize.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.FormMain.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.FormLogin.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.FormProject.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.FormReportViewer.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.Properties.Resources.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlGroups.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlProject.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlUsers.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControlListing.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.UserControlMain.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.UserControlMenuButtons.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControlSearchListing.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControlSearchListingX.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlGroup.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlUser.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlModule.resources
+C:\Projects\C#\BTSS\BTSS\obj\Debug\BusinessTechnologySecuritySystem.csproj.GenerateResource.Cache
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.exe.manifest
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.application
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.exe
+C:\Projects\C#\BTSS\BTSS\obj\Debug\Biztech.pdb
+C:\Projects\C#\BTSS\BTSS\bin\Debug\Microsoft.Office.Interop.Access.dll
+C:\Projects\C#\BTSS\BTSS\bin\Debug\dao.dll
+C:\Projects\C#\BTSS V2\BTSS\bin\Debug\Biztech.exe.config
+C:\Projects\C#\BTSS V2\BTSS\bin\Debug\Biztech.exe.manifest
+C:\Projects\C#\BTSS V2\BTSS\bin\Debug\Biztech.application
+C:\Projects\C#\BTSS V2\BTSS\bin\Debug\Biztech.exe
+C:\Projects\C#\BTSS V2\BTSS\bin\Debug\Biztech.pdb
+C:\Projects\C#\BTSS V2\BTSS\bin\Debug\Microsoft.Office.Interop.Access.dll
+C:\Projects\C#\BTSS V2\BTSS\bin\Debug\dao.dll
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.BTSS.FormGroups.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.BTSS.FormProject.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.BTSS.FormUsers.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormActiveDirectoryGroup.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormActiveDirectoryUsersList.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormAuditTrail.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.FormBrowseUser.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormLogin.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormAbout.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.FormInitialize.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormMain.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormPreferences.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.FormReportViewer.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.Individual.FormGroup.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.Individual.FormModule.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Forms.Individual.FormUser.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.Properties.Resources.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlUsers.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlGroups.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlProjects.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.UserControlButtonsSave.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.UserControlButtonsMain.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControl1.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControlExplorerBar.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControlListing.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.UserControlMain.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlUser.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlModule.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlGroup.resources
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\BusinessTechnologySecuritySystem.csproj.GenerateResource.Cache
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.exe.manifest
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.application
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.exe
+C:\Projects\C#\BTSS V2\BTSS\obj\Debug\Biztech.pdb
+C:\Projects\C#\BTSS V3\BTSS\bin\Debug\Biztech.exe.config
+C:\Projects\C#\BTSS V3\BTSS\bin\Debug\Biztech.exe.manifest
+C:\Projects\C#\BTSS V3\BTSS\bin\Debug\Biztech.application
+C:\Projects\C#\BTSS V3\BTSS\bin\Debug\Biztech.exe
+C:\Projects\C#\BTSS V3\BTSS\bin\Debug\Biztech.pdb
+C:\Projects\C#\BTSS V3\BTSS\bin\Debug\Microsoft.Office.Interop.Access.dll
+C:\Projects\C#\BTSS V3\BTSS\bin\Debug\dao.dll
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.BTSS.FormGroups.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.BTSS.FormProject.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.BTSS.FormUsers.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormActiveDirectoryGroup.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormActiveDirectoryUsersList.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormAuditTrail.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.FormBrowseUser.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormLogin.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormAbout.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.FormInitialize.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormMain.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormPreferences.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.FormReportViewer.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.Individual.FormGroup.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.Individual.FormModule.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Forms.Individual.FormUser.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.Properties.Resources.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlUsers.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlGroups.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.BTSS.UserControlProjects.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.UserControlButtonsSave.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.UserControlButtonsMain.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControl1.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControlExplorerBar.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.Generic.UserControlListing.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.UserControlMain.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlUser.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlModule.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.UserControls.Individual.UserControlGroup.resources
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\BusinessTechnologySecuritySystem.csproj.GenerateResource.Cache
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.exe.manifest
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.application
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.exe
+C:\Projects\C#\BTSS V3\BTSS\obj\Debug\Biztech.pdb

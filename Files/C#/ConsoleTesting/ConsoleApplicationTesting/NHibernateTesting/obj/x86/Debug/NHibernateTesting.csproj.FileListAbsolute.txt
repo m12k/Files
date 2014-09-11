@@ -1,0 +1,10 @@
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\bin\Debug\NHibernateTesting.exe.config
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\bin\Debug\NHibernateTesting.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\bin\Debug\NHibernateTesting.pdb
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\bin\Debug\Iesi.Collections.dll
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\bin\Debug\NHibernate.dll
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\bin\Debug\Iesi.Collections.xml
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\bin\Debug\NHibernate.xml
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\obj\x86\Debug\NHibernateTesting.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\NHibernateTesting\obj\x86\Debug\NHibernateTesting.pdb

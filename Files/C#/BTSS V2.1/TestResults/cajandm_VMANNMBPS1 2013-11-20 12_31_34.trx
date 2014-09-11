@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0a904e20-1135-4812-acd6-474e36f03144" name="cajandm@VMANNMBPS1 2013-11-20 12:31:34" runUser="PRD\cajandm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="9938835e-c373-49d2-b181-b871fef7d88c">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Projects\C#\BTSS V3\TestResults\cajandm_VMANNMBPS1 2013-11-20 12_31_34">
+      <DeploymentItem filename="C:\Projects\C#\BTSS V3\BTSS.Logic\bin\Debug\BTSS.Logic.dll" />
+      <DeploymentItem filename="C:\Projects\C#\BTSS V3\BTSS.Common\bin\Debug\BTSS.Common.dll" />
+      <DeploymentItem filename="C:\Projects\C#\BTSS V3\BTSS.Data\bin\Debug\BTSS.Data.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2013-11-20T12:31:34.4124777-05:00" queuing="2013-11-20T12:31:34.8656027-05:00" start="2013-11-20T12:31:35.0531027-05:00" finish="2013-11-20T12:31:35.8499777-05:00" />
+  <TestDefinitions>
+    <UnitTest name="SaveTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="df9b1be2-c2c8-8beb-bcbc-7a2c40f605d3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c7f614c0-9d7b-4942-bfb0-6ff259680fea" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="SaveTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="df9b1be2-c2c8-8beb-bcbc-7a2c40f605d3" executionId="c7f614c0-9d7b-4942-bfb0-6ff259680fea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c7f614c0-9d7b-4942-bfb0-6ff259680fea" testId="df9b1be2-c2c8-8beb-bcbc-7a2c40f605d3" testName="SaveTest" computerName="VMANNMBPS1" duration="00:00:00.0887149" startTime="2013-11-20T12:31:35.1468527-05:00" endTime="2013-11-20T12:31:35.7874777-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.PreferencesTest.SaveTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at BTSS.Logic.Preferences.Save() in C:\Projects\C#\BTSS V3\BTSS.Logic\Preferences.cs:line 45
+   at TestProject1.PreferencesTest.SaveTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 159
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTSS.Data", "BTSS.Data\BTSS.Data.csproj", "{F6800916-3514-42EA-AF6C-5F45003B839E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E} = {A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTSS.Logic", "BTSS.Logic\BTSS.Logic.csproj", "{D4D6EA15-9712-4005-94CD-F8E80533F8C0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6800916-3514-42EA-AF6C-5F45003B839E} = {F6800916-3514-42EA-AF6C-5F45003B839E}
+		{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E} = {A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTSS.Presentation", "BTSS.Presentation\BTSS.Presentation.csproj", "{94D21151-9776-4795-AB94-9B64921D8E15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4D6EA15-9712-4005-94CD-F8E80533F8C0} = {D4D6EA15-9712-4005-94CD-F8E80533F8C0}
+		{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E} = {A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTSS.Common", "BTSS.Common\BTSS.Common.csproj", "{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{6207255F-C948-453C-AC15-505C1BED89E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E0E4E2A-0453-4E2D-B332-E1480847D2BF}"
+	ProjectSection(SolutionItems) = preProject
+		BTSS.vsmdi = BTSS.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = BTSS.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6800916-3514-42EA-AF6C-5F45003B839E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6800916-3514-42EA-AF6C-5F45003B839E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6800916-3514-42EA-AF6C-5F45003B839E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6800916-3514-42EA-AF6C-5F45003B839E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D6EA15-9712-4005-94CD-F8E80533F8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D6EA15-9712-4005-94CD-F8E80533F8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D6EA15-9712-4005-94CD-F8E80533F8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D6EA15-9712-4005-94CD-F8E80533F8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D21151-9776-4795-AB94-9B64921D8E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D21151-9776-4795-AB94-9B64921D8E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D21151-9776-4795-AB94-9B64921D8E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D21151-9776-4795-AB94-9B64921D8E15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A74BAF7A-C7AA-46C4-B7E3-DE705892C07E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6207255F-C948-453C-AC15-505C1BED89E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6207255F-C948-453C-AC15-505C1BED89E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6207255F-C948-453C-AC15-505C1BED89E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6207255F-C948-453C-AC15-505C1BED89E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

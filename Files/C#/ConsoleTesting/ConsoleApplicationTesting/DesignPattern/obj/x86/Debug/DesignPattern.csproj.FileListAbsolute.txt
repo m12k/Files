@@ -1,0 +1,8 @@
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\bin\Debug\DesignPattern.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\bin\Debug\DesignPattern.pdb
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\obj\x86\Debug\DesignPattern.Properties.Resources.resources
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\obj\x86\Debug\DesignPattern.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\DesignPattern\obj\x86\Debug\DesignPattern.pdb

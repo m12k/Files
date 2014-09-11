@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 12, 11.75" name="BTSSContext">
+  <DataContextMoniker Name="/BTSSContext" />
+  <nestedChildShapes>
+    <classShape Id="c4d59a3e-8c33-46ad-8331-25ee0ae7395a" absoluteBounds="6.75, 2.5, 2, 1.2605004882812505">
+      <DataClassMoniker Name="/BTSSContext/ActiveDirectoryGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5d62cb47-cdf5-4330-85c4-10f06f813a47" absoluteBounds="6.765, 2.96, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fcaa8586-010f-40de-8177-6374949d5d1b" absoluteBounds="6.75, 5.5, 2, 2.2465844726562505">
+      <DataClassMoniker Name="/BTSSContext/Audit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac2ee1bb-764d-4549-ac32-c96890af5ad0" absoluteBounds="6.765, 5.96, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bfdc1f75-303b-4908-bd07-76b9ad8b7271" absoluteBounds="0.75, 3.625, 2, 2.0822371419270826">
+      <DataClassMoniker Name="/BTSSContext/Group" />
+      <nestedChildShapes>
+        <elementListCompartment Id="64189d94-7764-4cd6-8435-d2504e73436a" absoluteBounds="0.765, 4.085, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b8c0a71e-ba1f-483e-88b1-a39a64277c03" absoluteBounds="3.5, 0.75, 2, 1.9178898111979166">
+      <DataClassMoniker Name="/BTSSContext/GroupModule" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6cbc101-aae2-41d6-9385-860bf6d98f53" absoluteBounds="3.515, 1.21, 1.9700000000000002, 1.3578898111979165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="48fb1787-8515-47b4-b8ad-a2af2a9d0a91" absoluteBounds="0.75, 7.125, 2, 1.2605004882812514">
+      <DataClassMoniker Name="/BTSSContext/Module" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dc9be784-efba-47a0-b894-2823e21604a9" absoluteBounds="0.765, 7.585, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="616be672-255a-4016-8b72-33ca392d6262" absoluteBounds="9.75, 2.5, 2, 1.2605004882812505">
+      <DataClassMoniker Name="/BTSSContext/Preferences" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bbaeb518-ea61-4c28-b7fc-80eda1be3895" absoluteBounds="9.765, 2.96, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f337d2c5-75c0-4a6e-b3f5-1d50e7e1fbb3" absoluteBounds="3.75, 6.75, 2, 4.7117944335937478">
+      <DataClassMoniker Name="/BTSSContext/Project" />
+      <nestedChildShapes>
+        <elementListCompartment Id="289446e8-8d25-485d-8a4f-e826a03faf77" absoluteBounds="3.765, 7.21, 1.9700000000000002, 4.15179443359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0ad83ab-8cb8-4a92-ad1e-94e3f6c074a4" absoluteBounds="9.75, 5.5, 2, 0.93180582682291657">
+      <DataClassMoniker Name="/BTSSContext/TempTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ffbb244-3bff-4d6a-a228-46605a87ab44" absoluteBounds="9.765, 5.96, 1.9700000000000002, 0.37180582682291669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="39c8ec54-072c-402a-87bb-70786a4dbd56" absoluteBounds="9.75, 7.5, 2, 2.4109318033854175">
+      <DataClassMoniker Name="/BTSSContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="22e1b5d7-4773-4b97-9184-e1febf32d8a4" absoluteBounds="9.765, 7.96, 1.9700000000000002, 1.8509318033854165" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="08490745-f5fd-43de-82bc-7a5a4b81d6a9" absoluteBounds="3.5, 4.125, 2, 1.2605004882812505">
+      <DataClassMoniker Name="/BTSSContext/UserGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8c0bbf8d-becb-446b-bbd2-4649bc31cd13" absoluteBounds="3.515, 4.585, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f7b6c055-187c-4df8-9e8e-e71a104d0e25" absoluteBounds="6.5, 8.5, 2, 1.2605004882812487">
+      <DataClassMoniker Name="/BTSSContext/UserProject" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9cd5b795-cbe6-4b40-b858-b386d9143335" absoluteBounds="6.515, 8.96, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 3.625); (1.75 : 1.70894490559896); (3.5 : 1.70894490559896)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/BTSSContext/Group/Group_GroupModule" />
+      <nodes>
+        <classShapeMoniker Id="bfdc1f75-303b-4908-bd07-76b9ad8b7271" />
+        <classShapeMoniker Id="b8c0a71e-ba1f-483e-88b1-a39a64277c03" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 7.125); (3.125 : 6.75); (3.125 : 2.21966935839844); (3.5 : 2.21966935839844)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/BTSSContext/Module/Module_GroupModule" />
+      <nodes>
+        <classShapeMoniker Id="48fb1787-8515-47b4-b8ad-a2af2a9d0a91" />
+        <classShapeMoniker Id="b8c0a71e-ba1f-483e-88b1-a39a64277c03" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.75525024414063); (3.04166666666667 : 4.75525024414063 : JumpStart); (3.20833333333333 : 4.75525024414063 : JumpEnd); (3.5 : 4.75525024414063)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/BTSSContext/Group/Group_UserGroup" />
+      <nodes>
+        <classShapeMoniker Id="bfdc1f75-303b-4908-bd07-76b9ad8b7271" />
+        <classShapeMoniker Id="08490745-f5fd-43de-82bc-7a5a4b81d6a9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.75 : 9.13025024414062); (6.5 : 9.13025024414062)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/BTSSContext/Project/Project_UserProject" />
+      <nodes>
+        <classShapeMoniker Id="f337d2c5-75c0-4a6e-b3f5-1d50e7e1fbb3" />
+        <classShapeMoniker Id="f7b6c055-187c-4df8-9e8e-e71a104d0e25" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

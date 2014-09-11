@@ -1,0 +1,15 @@
+C:\Projects\C#\BTSS V2.1\BTSS.Common\bin\Release\BTSS.Common.dll
+C:\Projects\C#\BTSS V2.1\BTSS.Common\bin\Release\BTSS.Common.pdb
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\ResolveAssemblyReference.cache
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.FormDummy.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.FormReportViewer.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.Loader.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.Properties.Resources.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.UserControls.UserControlButtonsMain.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.UserControls.UserControlButtonsSave.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.UserControls.UserControlDomain.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.UserControls.UserControlListing.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.UserControls.UserControlMain.resources
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.csproj.GenerateResource.Cache
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.dll
+C:\Projects\C#\BTSS V2.1\BTSS.Common\obj\Release\BTSS.Common.pdb

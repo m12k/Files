@@ -1,0 +1,1176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<syncDesignerSurface dslVersion="1.0.0.0" Id="a1c8cecc-3cec-4018-a46b-b9da0943150f" parentDesignerName="LocalDataCache1" codeGenerationMode="Client and Server" synchronizeInOneTransaction="true" clientFileLocation="aa180f2d-70b4-4101-bf52-7571501b4a1c" serverFileLocation="aa180f2d-70b4-4101-bf52-7571501b4a1c" isRootSyncDesigner="true" rootSyncDesignerShouldGenerateCode="true" isClientSyncDesigner="false" isServerSyncDesigner="false" changeTrackingType="CoupledChangeTracking" xmlns="http://schemas.microsoft.com/dsltools/SyncDesigner">
+  <syncAdapters>
+    <syncAdapter Id="1331165f-ce08-463f-8e02-c79217957533" name="GroupSyncAdapter" tableName="Group">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="69747175-2cbd-4a46-b71e-a8d5da0762ff" name="UserSyncAdapter" tableName="User">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="25283379-f4bd-4043-a1c1-b2a50a73b78a" name="AuditSyncAdapter" tableName="Audit">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="39138c40-7c46-42e4-acb1-52a3b7bd44bd" name="GroupModuleSyncAdapter" tableName="GroupModule">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="31415a11-8fd4-433b-b072-9f4ce4b92868" name="ModuleSyncAdapter" tableName="Module">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="6e970fcf-f9ff-4202-bf39-8503cc89f77e" name="PreferencesSyncAdapter" tableName="Preferences">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="c6f6041e-6628-4bb8-9768-88edbff0750f" name="ProjectSyncAdapter" tableName="Project">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="5219bc35-d25a-46b0-bea6-a1a922c76fca" name="UserGroupSyncAdapter" tableName="UserGroup">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+    <syncAdapter Id="1f52095b-62ed-4da3-8cab-6c87ac0ae6ac" name="UserProjectSyncAdapter" tableName="UserProject">
+      <syncAdapterCommands>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableInsertCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableDeleteCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableUpdateCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableSelectConflictDeletedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableSelectConflictUpdatedRowsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableSelectIncrementalInsertsCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableSelectIncrementalDeletesCommand" />
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTableSelectIncrementalUpdatesCommand" />
+      </syncAdapterCommands>
+    </syncAdapter>
+  </syncAdapters>
+  <syncTables>
+    <syncTable Id="b413cf62-7f2f-468f-b0f8-3a69611c8820" name="GroupSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="Group" deletedItemsTableName="Group_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.[Group]" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="9bbaeec0-1e3c-40fb-acb3-ef5a82abaa52" name="UserSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="User" deletedItemsTableName="User_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.[User]" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="29f97719-d062-41a0-aaaf-fd7dc4427988" name="AuditSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="Audit" deletedItemsTableName="Audit_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.Audit" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="87c0cfd0-f367-4bad-b299-3d69ee4856c4" name="GroupModuleSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="GroupModule" deletedItemsTableName="GroupModule_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.GroupModule" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="99af4f66-ff33-4bcf-9165-919b66c65f6f" name="ModuleSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="Module" deletedItemsTableName="Module_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.Module" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="e0494254-c167-41b0-93da-983acf864a07" name="PreferencesSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="Preferences" deletedItemsTableName="Preferences_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.Preferences" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="19a90f19-362a-413e-b15f-9b62e14850fb" name="ProjectSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="Project" deletedItemsTableName="Project_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.Project" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="500d4ca3-898c-480f-a527-bc78cf27d85e" name="UserGroupSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="UserGroup" deletedItemsTableName="UserGroup_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.UserGroup" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+    <syncTable Id="3eaea6d4-706a-46fb-b7ef-4af8566411f7" name="UserProjectSyncTable" syncDirection="DownloadOnly" creationOptions="DropExistingOrCreateNewTable" tableName="UserProject" deletedItemsTableName="UserProject_Tombstone" createdDateColumnName="CreationDate" lastEditDateColumnName="LastEditDate" fullTableName="dbo.UserProject" deletedDateColumnName="DeletionDate" transactionIndex="0">
+      <syncGroup>
+        <syncGroupMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1SyncGroup" />
+      </syncGroup>
+    </syncTable>
+  </syncTables>
+  <syncGroups>
+    <syncGroup Id="6f36b3a4-a608-4a03-a1c8-b859c2073d89" name="LocalDataCache1SyncGroup" />
+  </syncGroups>
+  <clientSyncProvider>
+    <clientSyncProvider Id="03e0f4fa-b7d0-44d2-810f-b77ea43b5df7" name="LocalDataCache1ClientSyncProvider">
+      <syncConnection>
+        <syncConnectionMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ClientConnection" />
+      </syncConnection>
+    </clientSyncProvider>
+  </clientSyncProvider>
+  <serverSyncProvider>
+    <serverSyncProvider Id="1576461c-c826-41f4-84f7-63fc4efa5b9a" name="LocalDataCache1ServerSyncProvider">
+      <syncAdapters>
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncAdapter" />
+        <syncAdapterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncAdapter" />
+      </syncAdapters>
+      <syncConnection>
+        <syncConnectionMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ServerConnection" />
+      </syncConnection>
+      <selectNewAnchorCommand>
+        <syncAdapterCommandMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/selectNewAnchorCmd" />
+      </selectNewAnchorCommand>
+    </serverSyncProvider>
+  </serverSyncProvider>
+  <syncAgent>
+    <syncAgent name="LocalDataCache1SyncAgent">
+      <serverSyncProvider>
+        <serverSyncProviderMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1ServerSyncProvider" />
+      </serverSyncProvider>
+      <clientSyncProvider>
+        <clientSyncProviderMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/LocalDataCache1ClientSyncProvider" />
+      </clientSyncProvider>
+      <syncTables>
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/AuditSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/GroupModuleSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ModuleSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/PreferencesSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/ProjectSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserGroupSyncTable" />
+        <syncTableMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/UserProjectSyncTable" />
+      </syncTables>
+    </syncAgent>
+  </syncAgent>
+  <syncAdapterCommands>
+    <syncAdapterCommand Id="0ed44880-7fdb-4f1f-ae97-d94eef52887d" commandText="INSERT INTO dbo.[Group] ([Id], [Name], [Desc], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [Timestamp], [LastEditDate], [CreationDate]) VALUES (@Id, @Name, @Desc, @CreatedBy, @CreatedDate, @ModifiedBy, @ModifiedDate, @Timestamp, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount" commandType="Text" name="GroupSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Name" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Desc" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedBy" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedDate" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedBy" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedDate" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Timestamp" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0f0caa75-a1be-41b3-a371-67033cdf1eab" commandText="DELETE FROM dbo.[Group] WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="GroupSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count1" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="e996c61d-18af-4570-ac76-baef9edda2db" commandText="UPDATE dbo.[Group] SET [Name] = @Name, [Desc] = @Desc, [CreatedBy] = @CreatedBy, [CreatedDate] = @CreatedDate, [ModifiedBy] = @ModifiedBy, [ModifiedDate] = @ModifiedDate, [Timestamp] = @Timestamp, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="GroupSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Name1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Desc1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedBy1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedDate1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedBy1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedDate1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Timestamp1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count2" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="229e8791-2484-4ec4-a375-ffd7e4bc45e4" commandText="SELECT [Id], [DeletionDate] FROM dbo.Group_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="GroupSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="7e1adb3e-222a-48ba-95a8-f2ae06ab529b" commandText="SELECT [Id], [Name], [Desc], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [Timestamp], [LastEditDate], [CreationDate] FROM dbo.[Group] WHERE ([Id] = @Id)" commandType="Text" name="GroupSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="be5c0a9a-3526-494c-ab69-8c5bed1bb8d5" commandText="SELECT [Id], [Name], [Desc], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [Timestamp], [LastEditDate], [CreationDate] FROM dbo.[Group] WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="GroupSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="91fae05a-7c5f-454c-a277-50351d02ddc7" commandText="SELECT [Id], [DeletionDate] FROM dbo.Group_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="GroupSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor1" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="b8605a0e-fa66-475f-b105-32a3e789e676" commandText="SELECT [Id], [Name], [Desc], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [Timestamp], [LastEditDate], [CreationDate] FROM dbo.[Group] WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="GroupSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor2" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="94612532-0455-4758-9781-29f5f23591cf" commandText="INSERT INTO dbo.[User] ([Id], [LastName], [FirstName], [MiddleName], [UserName], [Password], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate]) VALUES (@Id, @LastName, @FirstName, @MiddleName, @UserName, @Password, @CreatedBy, @CreatedDate, @ModifiedBy, @ModifiedDate, @TimeStamp, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount" commandType="Text" name="UserSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastName" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@FirstName" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@MiddleName" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserName" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Password" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedBy2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedDate2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedBy2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedDate2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@TimeStamp2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="e78ea03f-3ac2-48a9-b0a1-3174392b8865" commandText="DELETE FROM dbo.[User] WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="UserSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id6" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="44fa6375-4ff1-496e-97fe-9ff01558cc3b" commandText="UPDATE dbo.[User] SET [LastName] = @LastName, [FirstName] = @FirstName, [MiddleName] = @MiddleName, [UserName] = @UserName, [Password] = @Password, [CreatedBy] = @CreatedBy, [CreatedDate] = @CreatedDate, [ModifiedBy] = @ModifiedBy, [ModifiedDate] = @ModifiedDate, [TimeStamp] = @TimeStamp, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="UserSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastName1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@FirstName1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@MiddleName1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserName1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Password1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedBy3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedDate3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedBy3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedDate3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@TimeStamp3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id7" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor6" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count5" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="4b832c70-cf0d-4ef5-9deb-cef4252f0a60" commandText="SELECT [Id], [DeletionDate] FROM dbo.User_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="UserSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id8" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0043330e-ec85-44d5-a348-edea11d94e89" commandText="SELECT [Id], [LastName], [FirstName], [MiddleName], [UserName], [Password], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate] FROM dbo.[User] WHERE ([Id] = @Id)" commandType="Text" name="UserSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id9" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="8117c390-f6f1-4a53-808b-9660093090bc" commandText="SELECT [Id], [LastName], [FirstName], [MiddleName], [UserName], [Password], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate] FROM dbo.[User] WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="UserSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor7" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="e9e4c184-c568-43b6-a8c8-5f9bd323bc24" commandText="SELECT [Id], [DeletionDate] FROM dbo.User_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="UserSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor8" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="90673c58-b642-43f6-8618-96c19bf7cd7c" commandText="SELECT [Id], [LastName], [FirstName], [MiddleName], [UserName], [Password], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate] FROM dbo.[User] WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="UserSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor9" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor5" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="2cbf6564-5fa8-4cbf-b29f-726f1663e023" commandText=" SET IDENTITY_INSERT dbo.Audit ON INSERT INTO dbo.Audit ([AuditID], [Type], [TableName], [PK], [FieldName], [OldValue], [NewValue], [UpdateDate], [UserName], [LastEditDate], [CreationDate]) VALUES (@AuditID, @Type, @TableName, @PK, @FieldName, @OldValue, @NewValue, @UpdateDate, @UserName, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount SET IDENTITY_INSERT dbo.Audit OFF " commandType="Text" name="AuditSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@AuditID" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Type" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@TableName" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@PK" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@FieldName" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@OldValue" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@NewValue" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UpdateDate" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserName2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count6" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="260616cc-6de1-48ec-b71f-2315897a4f60" commandText="DELETE FROM dbo.Audit WHERE ([AuditID] = @AuditID) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="AuditSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@AuditID1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor10" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count7" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="f7ccbb7d-d0fc-4fc2-b123-6082a244ff14" commandText="UPDATE dbo.Audit SET [Type] = @Type, [TableName] = @TableName, [PK] = @PK, [FieldName] = @FieldName, [OldValue] = @OldValue, [NewValue] = @NewValue, [UpdateDate] = @UpdateDate, [UserName] = @UserName, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([AuditID] = @AuditID) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="AuditSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Type1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@TableName1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@PK1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@FieldName1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@OldValue1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@NewValue1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UpdateDate1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserName3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@AuditID2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor11" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count8" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="ebe39c89-c5ac-4afa-b416-92b5092d6df0" commandText="SELECT [AuditID], [DeletionDate] FROM dbo.Audit_Tombstone WHERE ([AuditID] = @AuditID)" commandType="Text" name="AuditSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@AuditID3" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="258bb56f-78de-433d-9888-9ce05c84eb33" commandText="SELECT [AuditID], [Type], [TableName], [PK], [FieldName], [OldValue], [NewValue], [UpdateDate], [UserName], [LastEditDate], [CreationDate] FROM dbo.Audit WHERE ([AuditID] = @AuditID)" commandType="Text" name="AuditSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@AuditID4" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="f0b85ccc-9627-4deb-93a4-b0222b8c9b53" commandText="SELECT [AuditID], [Type], [TableName], [PK], [FieldName], [OldValue], [NewValue], [UpdateDate], [UserName], [LastEditDate], [CreationDate] FROM dbo.Audit WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="AuditSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor12" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor6" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="cecc6fb8-cb48-4695-b0e0-5dec47db4996" commandText="SELECT [AuditID], [DeletionDate] FROM dbo.Audit_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="AuditSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor13" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor7" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="789336a3-7383-4c5e-aac6-5bd4d78223b7" commandText="SELECT [AuditID], [Type], [TableName], [PK], [FieldName], [OldValue], [NewValue], [UpdateDate], [UserName], [LastEditDate], [CreationDate] FROM dbo.Audit WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="AuditSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor14" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor8" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="ef99ae87-dea2-45f7-8da3-aecf3e18bf00" commandText=" SET IDENTITY_INSERT dbo.GroupModule ON INSERT INTO dbo.GroupModule ([Id], [ModuleId], [GroupId], [CanView], [CanAdd], [CanEdit], [CanDelete], [LastEditDate], [CreationDate]) VALUES (@Id, @ModuleId, @GroupId, @CanView, @CanAdd, @CanEdit, @CanDelete, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount SET IDENTITY_INSERT dbo.GroupModule OFF " commandType="Text" name="GroupModuleSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id10" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModuleId" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@GroupId" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanView" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanAdd" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanEdit" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanDelete" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate6" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate6" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count9" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="a4267e24-6a3d-4592-b2a0-4d2580b4f061" commandText="DELETE FROM dbo.GroupModule WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="GroupModuleSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id11" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write6" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor15" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count10" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="1011d700-6331-4a83-9c0c-ea4c40ab3c18" commandText="UPDATE dbo.GroupModule SET [ModuleId] = @ModuleId, [GroupId] = @GroupId, [CanView] = @CanView, [CanAdd] = @CanAdd, [CanEdit] = @CanEdit, [CanDelete] = @CanDelete, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="GroupModuleSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModuleId1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@GroupId1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanView1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanAdd1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanEdit1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CanDelete1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate7" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate7" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id12" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write7" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor16" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count11" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="da4e20b8-ef9c-4ce0-9c35-aae44a2979c1" commandText="SELECT [Id], [DeletionDate] FROM dbo.GroupModule_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="GroupModuleSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id13" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="5f893a9b-3624-49ad-afa8-f9c2c9132df8" commandText="SELECT [Id], [ModuleId], [GroupId], [CanView], [CanAdd], [CanEdit], [CanDelete], [LastEditDate], [CreationDate] FROM dbo.GroupModule WHERE ([Id] = @Id)" commandType="Text" name="GroupModuleSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id14" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="23f2a844-1adc-4cd9-b8a8-869a55e5d7fe" commandText="SELECT [Id], [ModuleId], [GroupId], [CanView], [CanAdd], [CanEdit], [CanDelete], [LastEditDate], [CreationDate] FROM dbo.GroupModule WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="GroupModuleSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor17" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor9" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="9da7b929-f49b-41fa-8a18-3bafa670f6e2" commandText="SELECT [Id], [DeletionDate] FROM dbo.GroupModule_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="GroupModuleSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor18" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor10" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="54a5f8a3-3022-4574-a2f5-588de4782553" commandText="SELECT [Id], [ModuleId], [GroupId], [CanView], [CanAdd], [CanEdit], [CanDelete], [LastEditDate], [CreationDate] FROM dbo.GroupModule WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="GroupModuleSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor19" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor11" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="d980e0da-1f0b-439a-9cb1-3b7e4d782aed" commandText="INSERT INTO dbo.Module ([Id], [Name], [Tag], [LastEditDate], [CreationDate]) VALUES (@Id, @Name, @Tag, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount" commandType="Text" name="ModuleSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id15" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Name2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Tag" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate8" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate8" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count12" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="97f3f43d-c3ce-4dd8-b92c-44f5b0d7b8ac" commandText="DELETE FROM dbo.Module WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="ModuleSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id16" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write8" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor20" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count13" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="7d013ad5-51af-438e-95b0-6994aa01f9e2" commandText="UPDATE dbo.Module SET [Name] = @Name, [Tag] = @Tag, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="ModuleSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Name3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Tag1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate9" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate9" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id17" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write9" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor21" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count14" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="5dc86e7e-4d4e-43e6-8627-de18c3108400" commandText="SELECT [Id], [DeletionDate] FROM dbo.Module_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="ModuleSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id18" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="cd5f3635-8e91-4753-ac58-cefbd47b8d23" commandText="SELECT [Id], [Name], [Tag], [LastEditDate], [CreationDate] FROM dbo.Module WHERE ([Id] = @Id)" commandType="Text" name="ModuleSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id19" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="d9f0bee6-84f9-4bd6-93a2-f8f6fc2136fa" commandText="SELECT [Id], [Name], [Tag], [LastEditDate], [CreationDate] FROM dbo.Module WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="ModuleSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor22" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor12" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="b1e1709d-5c42-494e-bfcb-85099fe512da" commandText="SELECT [Id], [DeletionDate] FROM dbo.Module_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="ModuleSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor23" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor13" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="76c33069-e03e-439f-ac9b-d0888d60c8ff" commandText="SELECT [Id], [Name], [Tag], [LastEditDate], [CreationDate] FROM dbo.Module WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="ModuleSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor24" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor14" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="76d749b9-5156-46ba-8f5a-2c7e19dab763" commandText="INSERT INTO dbo.Preferences ([Id], [Tag], [Value], [LastEditDate], [CreationDate]) VALUES (@Id, @Tag, @Value, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount" commandType="Text" name="PreferencesSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id20" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Tag2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Value" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate10" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate10" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count15" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0f606ce4-258e-4092-8859-4e43076219e9" commandText="DELETE FROM dbo.Preferences WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="PreferencesSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id21" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write10" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor25" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count16" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="290f6263-bc3d-4144-9e96-a25d6532092a" commandText="UPDATE dbo.Preferences SET [Tag] = @Tag, [Value] = @Value, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="PreferencesSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Tag3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Value1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate11" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate11" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id22" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write11" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor26" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count17" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="440c4882-b2fd-4be0-ba52-f9d0a4dd9189" commandText="SELECT [Id], [DeletionDate] FROM dbo.Preferences_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="PreferencesSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id23" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="6ca59a05-2f91-4b2c-8d04-d012d1e67b6d" commandText="SELECT [Id], [Tag], [Value], [LastEditDate], [CreationDate] FROM dbo.Preferences WHERE ([Id] = @Id)" commandType="Text" name="PreferencesSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id24" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="90bf7d86-d648-4a09-9048-f7d13d4101ff" commandText="SELECT [Id], [Tag], [Value], [LastEditDate], [CreationDate] FROM dbo.Preferences WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="PreferencesSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor27" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor15" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="5941636d-485e-497d-a67a-1037440da2f3" commandText="SELECT [Id], [DeletionDate] FROM dbo.Preferences_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="PreferencesSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor28" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor16" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="85eb1528-fa58-41bc-acfd-f92a5da71f96" commandText="SELECT [Id], [Tag], [Value], [LastEditDate], [CreationDate] FROM dbo.Preferences WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="PreferencesSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor29" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor17" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="a2d86598-e8ec-4b25-b312-538657ab1b9e" commandText="INSERT INTO dbo.Project ([Id], [Name], [Desc], [Version], [IsActive], [BusinessOwner], [Tester], [OtherContact], [Provider], [File], [EnableBypassKey], [HasOtherDetails], [MDW], [Datasource], [DatabaseName], [UserID], [Password], [SharepointURL], [PathErrorLog], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate]) VALUES (@Id, @Name, @Desc, @Version, @IsActive, @BusinessOwner, @Tester, @OtherContact, @Provider, @File, @EnableBypassKey, @HasOtherDetails, @MDW, @Datasource, @DatabaseName, @UserID, @Password, @SharepointURL, @PathErrorLog, @CreatedBy, @CreatedDate, @ModifiedBy, @ModifiedDate, @TimeStamp, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount" commandType="Text" name="ProjectSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id25" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Name4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Desc2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Version" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@IsActive" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@BusinessOwner" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Tester" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@OtherContact" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Provider" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@File" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@EnableBypassKey" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@HasOtherDetails" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@MDW" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Datasource" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@DatabaseName" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserID" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Password2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@SharepointURL" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@PathErrorLog" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedBy4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedDate4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedBy4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedDate4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@TimeStamp4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate12" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate12" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count18" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="94e41841-6c7e-415c-9d99-998824193512" commandText="DELETE FROM dbo.Project WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="ProjectSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id26" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write12" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor30" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count19" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="032a5ba7-b348-4ae5-b7b0-653a86d2ccb1" commandText="UPDATE dbo.Project SET [Name] = @Name, [Desc] = @Desc, [Version] = @Version, [IsActive] = @IsActive, [BusinessOwner] = @BusinessOwner, [Tester] = @Tester, [OtherContact] = @OtherContact, [Provider] = @Provider, [File] = @File, [EnableBypassKey] = @EnableBypassKey, [HasOtherDetails] = @HasOtherDetails, [MDW] = @MDW, [Datasource] = @Datasource, [DatabaseName] = @DatabaseName, [UserID] = @UserID, [Password] = @Password, [SharepointURL] = @SharepointURL, [PathErrorLog] = @PathErrorLog, [CreatedBy] = @CreatedBy, [CreatedDate] = @CreatedDate, [ModifiedBy] = @ModifiedBy, [ModifiedDate] = @ModifiedDate, [TimeStamp] = @TimeStamp, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="ProjectSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Name5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Desc3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Version1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@IsActive1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@BusinessOwner1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Tester1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@OtherContact1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Provider1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@File1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@EnableBypassKey1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@HasOtherDetails1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@MDW1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Datasource1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@DatabaseName1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserID1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Password3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@SharepointURL1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@PathErrorLog1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedBy5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreatedDate5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedBy5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ModifiedDate5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@TimeStamp5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate13" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate13" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id27" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write13" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor31" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count20" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0f3e1716-f9f8-4450-94d2-39d31a3090fb" commandText="SELECT [Id], [DeletionDate] FROM dbo.Project_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="ProjectSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id28" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="275a3b01-435f-4ba7-b2fc-99f0d2c7e5c4" commandText="SELECT [Id], [Name], [Desc], [Version], [IsActive], [BusinessOwner], [Tester], [OtherContact], [Provider], [File], [EnableBypassKey], [HasOtherDetails], [MDW], [Datasource], [DatabaseName], [UserID], [Password], [SharepointURL], [PathErrorLog], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate] FROM dbo.Project WHERE ([Id] = @Id)" commandType="Text" name="ProjectSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id29" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="31b9f5df-1d4e-49ba-b74c-98ff215080b8" commandText="SELECT [Id], [Name], [Desc], [Version], [IsActive], [BusinessOwner], [Tester], [OtherContact], [Provider], [File], [EnableBypassKey], [HasOtherDetails], [MDW], [Datasource], [DatabaseName], [UserID], [Password], [SharepointURL], [PathErrorLog], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate] FROM dbo.Project WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="ProjectSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor32" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor18" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="822e0ab2-2a75-43d5-b5ea-2d8fddd1a469" commandText="SELECT [Id], [DeletionDate] FROM dbo.Project_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="ProjectSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized6" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor33" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor19" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="8f003920-accf-4c3b-8057-7d07477df485" commandText="SELECT [Id], [Name], [Desc], [Version], [IsActive], [BusinessOwner], [Tester], [OtherContact], [Provider], [File], [EnableBypassKey], [HasOtherDetails], [MDW], [Datasource], [DatabaseName], [UserID], [Password], [SharepointURL], [PathErrorLog], [CreatedBy], [CreatedDate], [ModifiedBy], [ModifiedDate], [TimeStamp], [LastEditDate], [CreationDate] FROM dbo.Project WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="ProjectSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor34" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor20" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="7f6e2628-f561-474c-92af-d37c19c9c253" commandText=" SET IDENTITY_INSERT dbo.UserGroup ON INSERT INTO dbo.UserGroup ([Id], [UserId], [GroupId], [LastEditDate], [CreationDate]) VALUES (@Id, @UserId, @GroupId, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount SET IDENTITY_INSERT dbo.UserGroup OFF " commandType="Text" name="UserGroupSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id30" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserId2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@GroupId2" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate14" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate14" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count21" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="76840100-b1a0-43a9-af86-beeb766b6b60" commandText="DELETE FROM dbo.UserGroup WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="UserGroupSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id31" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write14" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor35" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count22" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="957f98a7-5cf3-4364-8ed1-d9a1d1acecea" commandText="UPDATE dbo.UserGroup SET [UserId] = @UserId, [GroupId] = @GroupId, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="UserGroupSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserId3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@GroupId3" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate15" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate15" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id32" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write15" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor36" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count23" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="69d9005d-288f-4356-950f-10288d984298" commandText="SELECT [Id], [DeletionDate] FROM dbo.UserGroup_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="UserGroupSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id33" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="22bee83a-b228-4e92-ad67-ae1e596c5f8c" commandText="SELECT [Id], [UserId], [GroupId], [LastEditDate], [CreationDate] FROM dbo.UserGroup WHERE ([Id] = @Id)" commandType="Text" name="UserGroupSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id34" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="2841e8b8-827d-433f-a42a-916190df62b2" commandText="SELECT [Id], [UserId], [GroupId], [LastEditDate], [CreationDate] FROM dbo.UserGroup WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="UserGroupSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor37" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor21" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="9ff8c0d5-a2ec-4723-a2bb-4c2cc8e8b030" commandText="SELECT [Id], [DeletionDate] FROM dbo.UserGroup_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="UserGroupSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized7" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor38" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor22" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="37a1f16a-2d59-44a4-b185-6fb8bb6da6b7" commandText="SELECT [Id], [UserId], [GroupId], [LastEditDate], [CreationDate] FROM dbo.UserGroup WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="UserGroupSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor39" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor23" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="0e2811f5-df02-483f-a188-bb5e0ed5cb3f" commandText=" SET IDENTITY_INSERT dbo.UserProject ON INSERT INTO dbo.UserProject ([Id], [UserId], [ProjId], [LastEditDate], [CreationDate]) VALUES (@Id, @UserId, @ProjId, @LastEditDate, @CreationDate) SET @sync_row_count = @@rowcount SET IDENTITY_INSERT dbo.UserProject OFF " commandType="Text" name="UserProjectSyncTableInsertCommand" commandKind="InsertCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id35" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserId4" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ProjId" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate16" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate16" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count24" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="75d456c6-23e4-41b8-9f74-497776ebfc24" commandText="DELETE FROM dbo.UserProject WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="UserProjectSyncTableDeleteCommand" commandKind="DeleteCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id36" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write16" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor40" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count25" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="be4a2e3d-d296-4edf-b41c-a893e55c8f03" commandText="UPDATE dbo.UserProject SET [UserId] = @UserId, [ProjId] = @ProjId, [LastEditDate] = @LastEditDate, [CreationDate] = @CreationDate WHERE ([Id] = @Id) AND (@sync_force_write = 1 OR ([LastEditDate] &lt;= @sync_last_received_anchor)) SET @sync_row_count = @@rowcount" commandType="Text" name="UserProjectSyncTableUpdateCommand" commandKind="UpdateCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@UserId5" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@ProjId1" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@LastEditDate17" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@CreationDate17" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id37" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_force_write17" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor41" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_row_count26" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="b78b05b8-e059-40db-86b9-03492b539465" commandText="SELECT [Id], [DeletionDate] FROM dbo.UserProject_Tombstone WHERE ([Id] = @Id)" commandType="Text" name="UserProjectSyncTableSelectConflictDeletedRowsCommand" commandKind="SelectConflictDeletedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id38" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="e33802e6-7550-413c-b637-6d7dbbdc9d80" commandText="SELECT [Id], [UserId], [ProjId], [LastEditDate], [CreationDate] FROM dbo.UserProject WHERE ([Id] = @Id)" commandType="Text" name="UserProjectSyncTableSelectConflictUpdatedRowsCommand" commandKind="SelectConflictUpdatedRowsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@Id39" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="afd02957-e442-4843-962c-e7e1a4f37c71" commandText="SELECT [Id], [UserId], [ProjId], [LastEditDate], [CreationDate] FROM dbo.UserProject WHERE ([CreationDate] &gt; @sync_last_received_anchor AND [CreationDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="UserProjectSyncTableSelectIncrementalInsertsCommand" commandKind="SelectIncrementalInsertsCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor42" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor24" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="6f310399-89ff-4f3b-8754-a074e7e89ec2" commandText="SELECT [Id], [DeletionDate] FROM dbo.UserProject_Tombstone WHERE (@sync_initialized = 1 AND [DeletionDate] &gt; @sync_last_received_anchor AND [DeletionDate] &lt;= @sync_new_received_anchor)" commandType="Text" name="UserProjectSyncTableSelectIncrementalDeletesCommand" commandKind="SelectIncrementalDeletesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_initialized8" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor43" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor25" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="95bd943d-daec-47f6-b3b5-156f4726e6f5" commandText="SELECT [Id], [UserId], [ProjId], [LastEditDate], [CreationDate] FROM dbo.UserProject WHERE ([LastEditDate] &gt; @sync_last_received_anchor AND [LastEditDate] &lt;= @sync_new_received_anchor AND [CreationDate] &lt;= @sync_last_received_anchor)" commandType="Text" name="UserProjectSyncTableSelectIncrementalUpdatesCommand" commandKind="SelectIncrementalUpdatesCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_last_received_anchor44" />
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor26" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+    <syncAdapterCommand Id="796b92e9-c922-4ff8-a27b-baadc59e378b" commandText="Select @sync_new_received_anchor = GETUTCDATE()" commandType="Text" name="selectNewAnchorCmd" commandKind="SelectNewAnchorCommand">
+      <syncAdapterCommandParameters>
+        <syncAdapterCommandParameterMoniker name="/a1c8cecc-3cec-4018-a46b-b9da0943150f/@sync_new_received_anchor27" />
+      </syncAdapterCommandParameters>
+    </syncAdapterCommand>
+  </syncAdapterCommands>
+  <syncAdapterCommandParameters>
+    <syncAdapterCommandParameter Id="a624a1d5-c56c-4e30-8e75-9bfd00ce5a08" parameterType="VarChar" parameterName="@Id" name="@Id" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="aff574af-39a8-4db4-8dcf-f1d00cb69c7e" parameterType="VarChar" parameterName="@Name" name="@Name" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fc6aafe9-9e8a-48e4-8eca-d3d6a789cf79" parameterType="VarChar" parameterName="@Desc" name="@Desc" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b675626f-a86f-4a32-92be-a972af91f728" parameterType="VarChar" parameterName="@CreatedBy" name="@CreatedBy" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="95d93182-b9b7-4535-a441-a8de36ad36b8" parameterType="DateTime" parameterName="@CreatedDate" name="@CreatedDate" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a934aac4-0c52-450f-a1ae-c53b0df54ef3" parameterType="VarChar" parameterName="@ModifiedBy" name="@ModifiedBy" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="838228ba-f8e8-4eb6-97a5-04379565acc2" parameterType="DateTime" parameterName="@ModifiedDate" name="@ModifiedDate" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="35969451-3d81-44af-8dea-7229dc11dd6c" parameterType="DateTime" parameterName="@Timestamp" name="@Timestamp" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7e90857c-9cad-4992-b3d1-8979632a0456" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="bdb802c0-31f3-4b97-9494-f13b1522aabe" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9eae626d-8741-4ab5-a994-d5ac378765bc" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="5366050d-591d-46a4-af81-84b565979e89" parameterType="VarChar" parameterName="@Id" name="@Id1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f35334f0-a7ea-4a68-ab62-ab9c8f15f307" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c88b6745-0d03-4885-9e8a-084b215055c4" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7651d9cf-514d-45ec-beee-9ddb421d1886" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count1" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="7c6b71d7-2238-49f9-9ca3-0a0d226df82d" parameterType="VarChar" parameterName="@Name" name="@Name1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4d700b71-7e09-4ca3-b19e-7016d328fb09" parameterType="VarChar" parameterName="@Desc" name="@Desc1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="44e91374-1438-42e4-a2e3-9687122af962" parameterType="VarChar" parameterName="@CreatedBy" name="@CreatedBy1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="117db854-1022-49a5-92ce-901dacd54339" parameterType="DateTime" parameterName="@CreatedDate" name="@CreatedDate1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c0529ae5-1979-4c7f-8fd5-143269ee7817" parameterType="VarChar" parameterName="@ModifiedBy" name="@ModifiedBy1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="31df6b2f-d92e-400d-ad73-a4249ecf6c39" parameterType="DateTime" parameterName="@ModifiedDate" name="@ModifiedDate1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="beddee24-feda-44c8-ba56-9323e25a9cff" parameterType="DateTime" parameterName="@Timestamp" name="@Timestamp1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8b774a0b-8be1-46a1-92ff-28c93c362c5b" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="53dee00e-7e0e-449f-bd27-99f0b5308059" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5d4f5bc5-39dd-48a1-a883-17c2ebc35b4d" parameterType="VarChar" parameterName="@Id" name="@Id2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9712ea68-4e1f-4419-be2a-7e75298adfaf" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="93bf596f-66d4-441b-bd59-544eaa5a4c6d" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="54c89a99-1116-4554-aab5-232020a6279d" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count2" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="b252c369-358f-4535-b0f1-f99849e23ecc" parameterType="VarChar" parameterName="@Id" name="@Id3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fa6541c4-1a88-4e5b-86d6-3728db14b641" parameterType="VarChar" parameterName="@Id" name="@Id4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="484083dc-26ab-426a-88b9-8056779e0059" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ad456927-2579-4a15-9308-6755ac4dbb94" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b9185666-5664-4d20-ad0b-44351272f2b5" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8cd1c8e6-cc01-469c-adf0-345a38cfe3ed" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d3df2c31-ffdb-42ba-b97b-66451c337064" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d723129e-0b39-4d51-a084-bde76f458ba2" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8677a691-2e8d-4e76-a426-e021c710a20f" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9cc41092-c6ae-4382-8f02-cff8b8518af4" parameterType="VarChar" parameterName="@Id" name="@Id5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="659d74e8-0f2e-4cd6-ab4c-a665797ec37b" parameterType="VarChar" parameterName="@LastName" name="@LastName" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0620e5aa-6c09-45d7-b865-bcc30ad634bc" parameterType="VarChar" parameterName="@FirstName" name="@FirstName" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b446cd53-f08b-4305-b22c-b38f0b3c0554" parameterType="VarChar" parameterName="@MiddleName" name="@MiddleName" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a61cce19-5e72-4f11-8c0d-43367ee857fb" parameterType="VarChar" parameterName="@UserName" name="@UserName" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e16f2443-0970-4615-bebe-a6dbea47110d" parameterType="VarChar" parameterName="@Password" name="@Password" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0eaaa50f-584d-403f-9692-5ca52a3bb9f5" parameterType="VarChar" parameterName="@CreatedBy" name="@CreatedBy2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="380cace5-7b0d-44a6-881a-66bb9e3423cc" parameterType="DateTime" parameterName="@CreatedDate" name="@CreatedDate2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="041fb7be-b15c-48d2-a333-9bf73da3e2b0" parameterType="VarChar" parameterName="@ModifiedBy" name="@ModifiedBy2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5214c0ea-0f13-4b9c-838b-8c6d7d3bf922" parameterType="DateTime" parameterName="@ModifiedDate" name="@ModifiedDate2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ce3d2cf5-2f07-49ea-b7bf-9fe8511abe06" parameterType="DateTime" parameterName="@TimeStamp" name="@TimeStamp2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2abedad3-2bad-4e31-b785-f48eedbc0ebf" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6a3e3868-e68f-417f-95aa-cd82c8a615b8" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8dcd00bd-bc95-4cd0-bba3-b2bebae66d6b" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count3" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="3e6acce5-6122-44a1-b29d-70952f8645fc" parameterType="VarChar" parameterName="@Id" name="@Id6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="31b4893a-b7d2-4d3d-b916-40beb85e5532" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5c450142-47c6-4e3f-a4bc-78d6cf30af6c" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="36026485-60de-4544-9819-242a884a5315" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count4" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="e7b9ae5b-1a3f-4d9b-9291-b807b73ea313" parameterType="VarChar" parameterName="@LastName" name="@LastName1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b7f680b1-6920-4236-9230-15b8a71960a5" parameterType="VarChar" parameterName="@FirstName" name="@FirstName1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="60671fb9-641f-4dfd-925c-c26228eff0a5" parameterType="VarChar" parameterName="@MiddleName" name="@MiddleName1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1538e60b-6906-4f9a-a1de-bf0b7449bac0" parameterType="VarChar" parameterName="@UserName" name="@UserName1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3a41415e-0a27-401a-b24e-4cd5e9db3300" parameterType="VarChar" parameterName="@Password" name="@Password1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1a4ba84e-3498-45b0-abd5-71766700e9bd" parameterType="VarChar" parameterName="@CreatedBy" name="@CreatedBy3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4c0005c3-6682-4360-aa08-e116504b3ca6" parameterType="DateTime" parameterName="@CreatedDate" name="@CreatedDate3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e5e2f06c-e261-4e4c-b8f7-6dee97ce60cd" parameterType="VarChar" parameterName="@ModifiedBy" name="@ModifiedBy3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="604e3d7e-4dee-4f90-b2c8-35ac734f84b5" parameterType="DateTime" parameterName="@ModifiedDate" name="@ModifiedDate3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ea68e512-94d9-4fdc-a528-f35dca41daa8" parameterType="DateTime" parameterName="@TimeStamp" name="@TimeStamp3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="70a8c5aa-1094-4ec6-bdcd-67f7e27f7d93" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="97ca4abb-4f79-48d6-9918-e1e323ab2053" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2dc80bba-e572-4d6e-b589-3c69c2330f9a" parameterType="VarChar" parameterName="@Id" name="@Id7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e8c4220a-45d9-4cc1-b4eb-615d686ac48d" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="06edd8b0-171d-452a-90df-65857d77faad" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d48409b8-a317-41c3-8096-9949ad87d58a" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count5" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="a0f64223-bb51-4719-82bc-4c970c84f6f6" parameterType="VarChar" parameterName="@Id" name="@Id8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e8395f6e-428f-4658-977b-40e82debf8a0" parameterType="VarChar" parameterName="@Id" name="@Id9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="cbd642c3-a058-4fb1-b2d2-e83f975301f6" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="34ffdeaa-a690-4e3b-98bd-db646fbc5209" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="aca1c1d7-81a2-447f-9976-4c596876c7ca" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9aaa1f34-324b-4393-8363-004df0f10df2" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="342dfd66-aaaa-4401-883b-867953a2aac0" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="26817805-e658-421f-826c-b38bb600750f" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ea1de49e-71ec-4056-8acb-faf5bd266d97" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f4a0192d-a3e1-4413-a9b3-11f3b3f7e735" parameterType="Int" parameterName="@AuditID" name="@AuditID" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="93a5e45d-e504-4436-9f2e-31bb98fca55d" parameterType="VarChar" parameterName="@Type" name="@Type" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7d5288e2-925d-409a-8a3b-738cc1eee030" parameterType="VarChar" parameterName="@TableName" name="@TableName" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4c4cf9a4-4546-48a2-a8dd-5d4e53033dca" parameterType="VarChar" parameterName="@PK" name="@PK" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e23b1e4e-3a1f-400b-8570-32a2f270975b" parameterType="VarChar" parameterName="@FieldName" name="@FieldName" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5c552137-e83d-46aa-b5b0-c3f8cdb9f9ce" parameterType="VarChar" parameterName="@OldValue" name="@OldValue" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2455e919-f8dd-483a-8bed-73e4da2581b1" parameterType="VarChar" parameterName="@NewValue" name="@NewValue" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="34d4b588-aa4d-4ca7-9f07-537452c2c3b3" parameterType="DateTime" parameterName="@UpdateDate" name="@UpdateDate" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d7ff1b19-53e3-40d1-b863-3b997c7ca7cd" parameterType="VarChar" parameterName="@UserName" name="@UserName2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a7253704-64b7-4a48-a26d-cad6f7ed1200" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="614394db-6675-4bb0-995d-a1f289cda196" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="690a7a47-b1ad-4f89-ab3d-c0a6a4333a90" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count6" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="cd918088-893e-46f0-a4a0-c8613a3906e4" parameterType="Int" parameterName="@AuditID" name="@AuditID1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4b35d228-64ad-4ba4-b726-c11caf66d927" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6d158d4e-7f15-49e9-a99d-835402febee2" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="90b16266-fa7d-4613-b31d-a0cce4d28cf4" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count7" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="d9f3f251-8707-4d0f-86ef-978a92b7e81c" parameterType="VarChar" parameterName="@Type" name="@Type1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="53b7aad9-f3df-438b-af4e-7c11d0316955" parameterType="VarChar" parameterName="@TableName" name="@TableName1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2371bd54-f5f9-4e34-bfc1-af6d6cad1b70" parameterType="VarChar" parameterName="@PK" name="@PK1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6f5a04e7-1b63-412f-982f-f9710eff65ca" parameterType="VarChar" parameterName="@FieldName" name="@FieldName1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c8c8a9bc-e32b-40ae-892c-03e69c3f5793" parameterType="VarChar" parameterName="@OldValue" name="@OldValue1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0535c8ef-3c9c-40d3-8b0a-b6e7eee4b117" parameterType="VarChar" parameterName="@NewValue" name="@NewValue1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="111ec96b-cca3-4b9d-82b5-02182e94877e" parameterType="DateTime" parameterName="@UpdateDate" name="@UpdateDate1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4a7de18f-742a-40b7-99be-94b534e55abd" parameterType="VarChar" parameterName="@UserName" name="@UserName3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="87804d0c-f36c-464d-8853-37437fd6ad36" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="12ce1add-662b-4842-894c-a3a70e215292" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7c7fb3a9-2808-47d1-8e97-63bcf845259e" parameterType="Int" parameterName="@AuditID" name="@AuditID2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="460d6fb4-95d7-4606-bf3c-ca6abc62162a" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d35e99f4-3ca5-46eb-aad7-9b6099de35bc" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7ef009a9-0741-408f-9227-f40088f6f03a" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count8" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="f4a36c31-e997-4532-a22d-5e3f094799fe" parameterType="Int" parameterName="@AuditID" name="@AuditID3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c63a5d7e-578e-4372-9053-7aa03ae03b47" parameterType="Int" parameterName="@AuditID" name="@AuditID4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b6349169-9d7f-4a28-a531-d4b428d4f32b" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="58aa8bf1-c247-4fd9-b305-f788b11fdee9" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="1f2305be-8cd9-48bc-9ae9-3b1902d20a5c" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="699386a3-21ca-4540-b563-58a5f4b2602a" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7977f8b1-3c31-470e-8bbc-24b1abd53785" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3313af88-e62e-4f88-aaf6-483007786d88" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="933b1314-3c1f-4a20-afd0-98c290c25949" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="dbb90911-d79a-4cf6-bb40-4994f9d0c9c9" parameterType="BigInt" parameterName="@Id" name="@Id10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9d5345bf-2356-44e2-b0b1-5cff070b6ad0" parameterType="Int" parameterName="@ModuleId" name="@ModuleId" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="cd26e044-be53-48d0-b0b8-6d0cf9816571" parameterType="VarChar" parameterName="@GroupId" name="@GroupId" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0c02c66b-108a-4a40-8ad2-8d0d5f350d2a" parameterType="Bit" parameterName="@CanView" name="@CanView" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6c69214c-5458-4a10-a185-f56004fa742d" parameterType="Bit" parameterName="@CanAdd" name="@CanAdd" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2ab054aa-62a6-4f93-bed6-31df1dc69a8a" parameterType="Bit" parameterName="@CanEdit" name="@CanEdit" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f08580f2-4f8d-4d8f-a867-abfe22f8b067" parameterType="Bit" parameterName="@CanDelete" name="@CanDelete" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="77b61c12-d17d-4a95-9fd6-7bb7608116c1" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3b8a2d8e-6cd1-49a2-bb95-76d412ed8b18" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4156ee90-abef-4e13-9fce-635ff27375e9" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count9" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="0e80fa81-c655-4e70-b1bb-75109d42fdbd" parameterType="BigInt" parameterName="@Id" name="@Id11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4468824f-76cf-46ff-8341-dfefa6b01c2c" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b4cd2aea-1b0f-403d-ba6c-e495bd7c59f3" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="35150a2a-c9a6-4f12-a7be-e243e7ee3d05" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count10" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="dd2989cc-1572-45a2-8330-5b201419f4b1" parameterType="Int" parameterName="@ModuleId" name="@ModuleId1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="49d6df92-3c42-4bb0-ba40-97d4b8d83dfc" parameterType="VarChar" parameterName="@GroupId" name="@GroupId1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8ca59962-e20d-4007-a8e5-d881f44d1287" parameterType="Bit" parameterName="@CanView" name="@CanView1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f47032af-e983-42fc-8545-416cdfa0beb3" parameterType="Bit" parameterName="@CanAdd" name="@CanAdd1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fedd4fb9-eb1f-40fc-bd4d-e206adc1b30e" parameterType="Bit" parameterName="@CanEdit" name="@CanEdit1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ac0916c2-0c7a-40c3-aa5b-8667d507602d" parameterType="Bit" parameterName="@CanDelete" name="@CanDelete1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="40599f15-a7f9-4781-88ed-dee60f90dbd0" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="af0a29e2-9ec1-4232-b2b1-9e132aec4e1b" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="13cc8a22-65c3-4695-89d5-7b33bfdc37ab" parameterType="BigInt" parameterName="@Id" name="@Id12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8e8e8798-683e-4ae5-98a0-4ccb95e1fe8c" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fe42dab3-be06-4ef4-8e13-32b578bbc992" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f863daf1-5760-494b-8acd-797e4ba7f8ce" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count11" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="18c99c79-aaa7-4435-9ded-aef855fc02f2" parameterType="BigInt" parameterName="@Id" name="@Id13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3da5ca33-94f5-4f8e-a86d-260d82b00b3e" parameterType="BigInt" parameterName="@Id" name="@Id14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="94bd1560-116b-4b00-8b24-3481ce044d0a" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="bc7b19e6-c56c-4a77-a432-134382c8d7fe" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ec14bdb4-9c7c-4db1-973a-b37cee2140e9" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="20eac28e-caf5-4b4b-8624-3d7331d80eb1" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor18" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="af3c6a73-7fdb-42e2-b1d9-c0b4f14a151a" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2348850d-b5a8-4b6c-b24e-0687d7bd93c0" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor19" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8acc3496-5cb3-4cdf-ac24-3341ca96afc1" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5b67173e-aa49-4861-8e79-a0f716e52f21" parameterType="Int" parameterName="@Id" name="@Id15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ee70bfc3-bbc5-414b-b399-ec02ff813184" parameterType="VarChar" parameterName="@Name" name="@Name2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0cf7bb49-3b14-4418-9269-ca513a7c9ab1" parameterType="VarChar" parameterName="@Tag" name="@Tag" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="09817bd7-24ee-4643-80b1-c09cf066b555" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="915dcc06-659d-4704-838e-5e56d4e632f6" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c87c0ab5-eb21-4167-bd99-97a80c26e3f7" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count12" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="ae01b589-1b43-47f1-baee-30f7d4da1da3" parameterType="Int" parameterName="@Id" name="@Id16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8d252276-54d0-46ee-963b-bc2a4ac0a345" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d1679071-79f1-404f-83b2-4b3bc9f2a0a7" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor20" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e6e0339e-24a5-461b-a8dd-f601928baef8" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count13" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="ade56d93-17ef-413f-9786-338bb5e487d6" parameterType="VarChar" parameterName="@Name" name="@Name3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4e2dc02b-1e86-4788-b5aa-e3582b604de4" parameterType="VarChar" parameterName="@Tag" name="@Tag1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f1dae684-f309-454e-9f2f-9f5a04a0027d" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e1a3816c-b8e6-48e7-8496-010fbd123f5e" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="bfeae2fd-46c4-4e53-8232-bcd00063481e" parameterType="Int" parameterName="@Id" name="@Id17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4ba3e20f-8406-415f-8fc2-12ce85729a4c" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write9" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8dd996ee-36ae-451d-bbe4-8f2764aca77b" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor21" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5c8d3357-f87d-4932-9670-5e2f930d192d" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count14" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="298da3e1-1bf9-49f3-8ef1-71f96ba6e179" parameterType="Int" parameterName="@Id" name="@Id18" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="bfc723f8-49ac-46a7-b4bc-69ee197dd70c" parameterType="Int" parameterName="@Id" name="@Id19" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="62603846-5691-421f-a85f-8a991b87e49c" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor22" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a51bbcf6-005f-42e0-8a35-1c05631f847f" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d00add85-fd05-4674-8ee0-e99b0b9c0a0b" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3cf2bd8c-e16c-4708-a896-cad416c085bb" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor23" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="121b713f-31b1-4f10-9536-68ac1264100e" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a4725991-49bf-4ef5-a318-bd501708efc5" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor24" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="66ccc101-c6bc-42b4-af5d-663baf9040f0" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="38aac990-fdea-4722-9e1e-ea41e305fba8" parameterType="Int" parameterName="@Id" name="@Id20" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6375de1d-d526-414a-b8a7-93a30e6ac4a2" parameterType="VarChar" parameterName="@Tag" name="@Tag2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a151f8a4-55bb-4532-bb4b-c722ac628bd1" parameterType="VarChar" parameterName="@Value" name="@Value" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6ec7e726-6f06-4fe2-acc9-85a8f19a26cc" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f18d8e65-5b51-4de1-8f10-d9c5b81a79c8" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="76dc37c4-ad4c-4552-b5d2-8d3cae781a47" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count15" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="bddf4982-af10-4554-b5e7-e887fd6da5b4" parameterType="Int" parameterName="@Id" name="@Id21" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="da19f028-d3d7-4954-ae35-f955ffeb4afa" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write10" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="68d658a8-2abe-40c3-b5c0-104bf4a684e9" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor25" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="314f5e61-ad50-4031-8bfa-e9f24615096c" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count16" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="00bcfcd9-a85b-4979-9565-a9c9d911df08" parameterType="VarChar" parameterName="@Tag" name="@Tag3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3f2d2123-ba1b-443b-bceb-0fe6b779f168" parameterType="VarChar" parameterName="@Value" name="@Value1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="895d9e21-4cb3-443c-b602-bffcee857e09" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f8494cfa-de4c-4398-bf81-c1bdd38a84ca" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="091c8927-23c5-4982-867b-8d4960d83ca4" parameterType="Int" parameterName="@Id" name="@Id22" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4bd993af-e05b-4c76-9208-ff5fa3db187f" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write11" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6b5f330d-feaa-49b2-803a-fa485a5df451" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor26" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c549b8d4-e903-4076-8b34-d6f6d9660eab" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count17" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="974b9937-4414-49f1-928a-b167c96acf27" parameterType="Int" parameterName="@Id" name="@Id23" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fe959b00-5427-4ce1-93a7-95d875daf163" parameterType="Int" parameterName="@Id" name="@Id24" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0d2d196c-93b5-4632-8799-a14a8a75037a" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor27" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6a336484-e312-40a9-a7c2-a1f47f18bfcd" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b2b91fbb-a534-46e0-9927-ad36e35d562f" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="be96262f-e307-46b8-a77b-04dca60f01b4" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor28" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b32cb2fc-6192-4e9c-b26d-ebed64d46356" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ee8c3547-ef98-48c5-98a5-d1320721ff53" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor29" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d09377ef-0117-4ac4-8e6c-7148b4140277" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d2fa4375-9275-447e-9183-0a169b85bf75" parameterType="VarChar" parameterName="@Id" name="@Id25" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="47b7d5b6-69db-42a7-a110-a55cfbb64f4d" parameterType="VarChar" parameterName="@Name" name="@Name4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0a598cf3-006e-403e-8028-3bb8c63d82db" parameterType="VarChar" parameterName="@Desc" name="@Desc2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="85730f78-fa54-41cf-b46e-e7693e10b2ea" parameterType="VarChar" parameterName="@Version" name="@Version" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ac8897e8-8935-4a58-838b-2fae10b21edf" parameterType="Bit" parameterName="@IsActive" name="@IsActive" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="578a8932-ceed-409b-8725-1ab3268467bd" parameterType="VarChar" parameterName="@BusinessOwner" name="@BusinessOwner" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d7b8534f-3a9a-488d-836f-22ef777cc9e3" parameterType="VarChar" parameterName="@Tester" name="@Tester" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="642c4ea2-748f-408a-996b-e9a1c7b2920f" parameterType="VarChar" parameterName="@OtherContact" name="@OtherContact" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="df740ca4-aa60-4a61-963a-b4fe07513a91" parameterType="VarChar" parameterName="@Provider" name="@Provider" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d7e2a82b-6b03-488c-9a54-958128839631" parameterType="VarChar" parameterName="@File" name="@File" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="026e92ed-b9a4-4ef5-b1e6-72724dd3568e" parameterType="Bit" parameterName="@EnableBypassKey" name="@EnableBypassKey" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="79a8cd6b-7f77-4009-8231-10ba746e86ee" parameterType="Bit" parameterName="@HasOtherDetails" name="@HasOtherDetails" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d634d4dd-2ed5-4658-94cb-ca921d962e3e" parameterType="VarChar" parameterName="@MDW" name="@MDW" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4be38ba3-f1fa-43d2-a75a-bef014952ed4" parameterType="VarChar" parameterName="@Datasource" name="@Datasource" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="58b8ecae-6446-4361-a281-a024c7ec685d" parameterType="VarChar" parameterName="@DatabaseName" name="@DatabaseName" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="81436406-174a-42d5-ac09-662dbb848753" parameterType="VarChar" parameterName="@UserID" name="@UserID" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5f8f9022-7250-4103-a126-fcd113e231ed" parameterType="VarChar" parameterName="@Password" name="@Password2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b3b539f6-c42c-48a7-a8d6-ef2c2885702a" parameterType="VarChar" parameterName="@SharepointURL" name="@SharepointURL" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="94ddbdb8-e4ba-4530-ae9c-19133be7d688" parameterType="VarChar" parameterName="@PathErrorLog" name="@PathErrorLog" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8a35dda6-2f27-4829-a84d-09293527b061" parameterType="VarChar" parameterName="@CreatedBy" name="@CreatedBy4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7e495c6f-8adf-401d-9348-88e3ef95aed6" parameterType="DateTime" parameterName="@CreatedDate" name="@CreatedDate4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3823ec31-3172-415e-9336-d9fa12e0f884" parameterType="VarChar" parameterName="@ModifiedBy" name="@ModifiedBy4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9c89a615-54fe-4c12-810c-485a6b6fcff3" parameterType="DateTime" parameterName="@ModifiedDate" name="@ModifiedDate4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c744ae24-4a0b-4083-a92c-658159a95ed8" parameterType="DateTime" parameterName="@TimeStamp" name="@TimeStamp4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a1c0bf97-c035-4d99-8e29-8d3c9bdea2fd" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d1a491d5-f69d-4337-b238-7f929abb9522" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a01d3249-f618-498b-bf7c-1514b1cb8dc4" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count18" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="0019beea-c15b-4367-b994-9bd98634e8b8" parameterType="VarChar" parameterName="@Id" name="@Id26" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="873441df-dc17-4652-9d28-a34ebed21571" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write12" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="49467e48-6c01-449c-9d75-615c25d8ef7e" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor30" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="f6915581-9c46-4574-b48b-2a0817e22369" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count19" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="973de0d8-3a21-4246-9d1c-6bca330654cd" parameterType="VarChar" parameterName="@Name" name="@Name5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="385dbd24-c88f-400f-aa8b-0f902a8054bf" parameterType="VarChar" parameterName="@Desc" name="@Desc3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="84f7240e-3436-496f-9722-b12f05da2573" parameterType="VarChar" parameterName="@Version" name="@Version1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6d53402d-7c67-4c86-a890-eb3d331c686e" parameterType="Bit" parameterName="@IsActive" name="@IsActive1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b94d2176-a788-4fe4-960b-a1208be830f9" parameterType="VarChar" parameterName="@BusinessOwner" name="@BusinessOwner1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2eb73219-1bb1-4328-ab0a-81b6c1cab7c2" parameterType="VarChar" parameterName="@Tester" name="@Tester1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4e1bcbdf-9481-41a1-b039-f0d0691c709c" parameterType="VarChar" parameterName="@OtherContact" name="@OtherContact1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="dfbd79aa-df61-4563-b1d4-0122c885fc08" parameterType="VarChar" parameterName="@Provider" name="@Provider1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d600e839-043e-451b-826d-ae6a92fd526e" parameterType="VarChar" parameterName="@File" name="@File1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9ae2bb15-7fc3-4290-8941-767b0dee2805" parameterType="Bit" parameterName="@EnableBypassKey" name="@EnableBypassKey1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="734cbd4d-34b6-4571-b2e8-df0591c52a49" parameterType="Bit" parameterName="@HasOtherDetails" name="@HasOtherDetails1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7b9a72e9-4a0f-4c27-b0b4-4dd87f7ea17c" parameterType="VarChar" parameterName="@MDW" name="@MDW1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c6fee032-1931-4828-a855-5c74c94dbea1" parameterType="VarChar" parameterName="@Datasource" name="@Datasource1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="d7b2b367-4091-44dd-add1-195157d4cc22" parameterType="VarChar" parameterName="@DatabaseName" name="@DatabaseName1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="81a2d338-1ae4-4a0d-bf34-feaa1b2c7075" parameterType="VarChar" parameterName="@UserID" name="@UserID1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5d4663c0-39ab-4444-93d7-33eeceaa63ba" parameterType="VarChar" parameterName="@Password" name="@Password3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="33f6c6cf-f650-456e-9bfa-b29834812739" parameterType="VarChar" parameterName="@SharepointURL" name="@SharepointURL1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ee29e6ef-d4bd-4212-a59b-f0091117eb36" parameterType="VarChar" parameterName="@PathErrorLog" name="@PathErrorLog1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3cebec31-63bb-45ff-881c-183c52ba3aba" parameterType="VarChar" parameterName="@CreatedBy" name="@CreatedBy5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ee853795-35f2-4248-894e-fb5f05581885" parameterType="DateTime" parameterName="@CreatedDate" name="@CreatedDate5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ef917bd9-d3ab-48b3-9fe7-dd178381f52c" parameterType="VarChar" parameterName="@ModifiedBy" name="@ModifiedBy5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ff9f3598-daa6-4757-9c71-7b645d15ca0d" parameterType="DateTime" parameterName="@ModifiedDate" name="@ModifiedDate5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0de6688d-7087-40a1-8044-d583f65afb28" parameterType="DateTime" parameterName="@TimeStamp" name="@TimeStamp5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="04bfe93a-5676-4061-9e09-27d1eaf12f9a" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="749ed42c-2599-4cf7-aa25-3e4d97d01706" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a5d55a96-2fae-417a-bdc5-f180e3bcf978" parameterType="VarChar" parameterName="@Id" name="@Id27" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fa4ada8d-968d-4a1d-95a0-0ae9039c9d75" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write13" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="95eee665-1d35-4198-b676-585d49840b10" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor31" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="05fdc7a4-d336-4d40-89c5-a820f79c8e5a" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count20" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="79cf45a3-5909-4deb-85b2-ac3e3eeb6def" parameterType="VarChar" parameterName="@Id" name="@Id28" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="239f0dc5-18e9-43a5-8fa9-20afcf62c0e0" parameterType="VarChar" parameterName="@Id" name="@Id29" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ba0402c1-ab35-476e-9e78-0e2cb9116a25" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor32" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7dc5564d-58b4-4f38-b81b-8be3ba922a1d" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor18" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3467c590-006c-4d28-a4d4-214f2de29460" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized6" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e6cd73ad-2d71-4cd6-9f69-bb1f99587062" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor33" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9ae620ef-6308-446e-97e4-151024389b4d" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor19" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5091a9ee-2207-4c3c-a17d-4024999dcd0b" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor34" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="dced79d8-d22e-4297-96b6-060eb5cc9f65" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor20" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c9b0e65a-d8c7-4c94-8194-43d25c8ba65b" parameterType="BigInt" parameterName="@Id" name="@Id30" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="38d5cf8e-f951-4353-b954-c36803afa773" parameterType="VarChar" parameterName="@UserId" name="@UserId2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="bbcc72ed-94fe-4b39-b3e7-d3a47f80cfe1" parameterType="VarChar" parameterName="@GroupId" name="@GroupId2" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c9ae78ee-65c6-4a9e-ad94-a95e1f9a3954" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="79b3e9cc-286a-40da-a454-98fbbf3b92f8" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5b5437b7-eded-478f-bb10-091c48092f8d" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count21" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="65a606a8-967a-4cc0-bf3b-f6f0f7481d4a" parameterType="BigInt" parameterName="@Id" name="@Id31" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9e1f693a-8c92-4bc1-81ee-03e4cd4e437e" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write14" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="683999e8-f9e1-4c46-82e8-cb331744a4f6" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor35" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="ed87cf7e-76e2-473d-b354-b2230b22c6bb" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count22" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="b21c5380-6f01-4215-b4c4-96ea303edbd0" parameterType="VarChar" parameterName="@UserId" name="@UserId3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="da7fe84d-74f0-4eba-9a1a-550d03894b1b" parameterType="VarChar" parameterName="@GroupId" name="@GroupId3" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="83f69ae7-daa4-4f33-a68d-845f7ddfcaff" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="7cdd751e-9208-4994-bb62-861997887dd7" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="de7ad830-0647-4e4e-a92c-a55a72d89250" parameterType="BigInt" parameterName="@Id" name="@Id32" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="16222954-29fe-40a6-b0fa-3f0820d699d3" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write15" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="e5019ee1-4595-4fa2-89e0-bf102ed884a7" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor36" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="6a0c92f6-ebc7-4b0e-ba69-91912eeb681e" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count23" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="60eadc0e-4481-46b9-983f-4a87a9028537" parameterType="BigInt" parameterName="@Id" name="@Id33" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="2c094a6c-2bd3-4ef1-b1c6-27fcb17b4921" parameterType="BigInt" parameterName="@Id" name="@Id34" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8b9f26e7-fef7-4ae5-9936-42ebd2cb3586" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor37" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="4798a21b-4808-4051-8b61-76c78a93477a" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor21" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="8c0a0f64-048e-4087-b5ff-7490d813426a" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized7" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c74d5ce6-3cf6-40e8-9575-0a42b35eeb18" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor38" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a5b78e41-c8c6-4595-a23b-6486d29034b7" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor22" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="aaedbbc9-5368-4c63-8ae8-f136769f73d1" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor39" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c2544712-2013-47b2-a5e9-40a7c3d2069d" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor23" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="a9634257-919b-414e-a8bf-6751b228941b" parameterType="BigInt" parameterName="@Id" name="@Id35" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="347359dd-b9a8-4c49-bc8a-5eb98eeb2322" parameterType="VarChar" parameterName="@UserId" name="@UserId4" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="af99ad52-77d8-418d-b5e9-f69b96806add" parameterType="VarChar" parameterName="@ProjId" name="@ProjId" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="48128044-25c8-4520-a874-b53c2ecc3399" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c18d201a-6833-4250-8023-e1d7d21f4ea7" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5ef88767-7c7b-42ab-a66a-7004534acc92" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count24" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="0a16ced7-0ec4-4ff0-b598-6bca2921c581" parameterType="BigInt" parameterName="@Id" name="@Id36" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="45aac362-2676-4077-be0e-1330106a4759" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write16" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="fc6fe366-ee1c-45dc-8f1c-5d7354ff1629" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor40" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="98440d15-49dd-4a5f-87b5-c2fb5e892b78" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count25" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="ccece15e-25de-4d95-86aa-e130bbe0c91d" parameterType="VarChar" parameterName="@UserId" name="@UserId5" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c41d7743-c546-46bb-b15b-21db1c2a9804" parameterType="VarChar" parameterName="@ProjId" name="@ProjId1" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="27834f67-65b1-4907-864d-01aede637a22" parameterType="DateTime" parameterName="@LastEditDate" name="@LastEditDate17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="54f08f84-b17f-4018-b394-e77ba03f4416" parameterType="DateTime" parameterName="@CreationDate" name="@CreationDate17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="3fd51f1d-eb2b-438d-b941-9935a4d9c2cc" parameterType="BigInt" parameterName="@Id" name="@Id37" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="cef626ad-5287-4274-bbdd-bd73db67a53b" parameterType="Bit" parameterName="@sync_force_write" name="@sync_force_write17" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="41b84df3-1679-454c-ab39-bfb94fd87684" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor41" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="86abd85e-7522-4973-abc7-976200bdae98" parameterType="Int" parameterName="@sync_row_count" name="@sync_row_count26" parameterDirection="Output" />
+    <syncAdapterCommandParameter Id="8d28335e-fbb1-482c-82e2-ec727266ff66" parameterType="BigInt" parameterName="@Id" name="@Id38" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="5488d526-d479-4408-8f57-2b3d63245ea1" parameterType="BigInt" parameterName="@Id" name="@Id39" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="60b7f2fe-7dfa-4e9d-8bc8-9b89b30e127c" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor42" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="be35bb8f-2e20-4edb-972e-fb12c38ef582" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor24" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="9079a0c6-a162-4db9-9472-33d553f19281" parameterType="Bit" parameterName="@sync_initialized" name="@sync_initialized8" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="c1dffb19-9d26-4250-bcb5-0875627f8234" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor43" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="b670bc36-522d-444c-9add-460a14cacdea" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor25" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="11d5c934-029a-4ec0-8abc-457675634253" parameterType="DateTime" parameterName="@sync_last_received_anchor" name="@sync_last_received_anchor44" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="0b84a4fd-eecb-4cd7-9b9b-2941e89ec6a1" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor26" parameterDirection="Input" />
+    <syncAdapterCommandParameter Id="727b2016-8bf6-4c2d-9963-6f51a2f8d8ec" parameterType="DateTime" parameterName="@sync_new_received_anchor" name="@sync_new_received_anchor27" parameterDirection="Output" />
+  </syncAdapterCommandParameters>
+  <syncConnections>
+    <syncConnection Id="c1ac51f7-8e0a-444d-bf06-d7b9d56b9910" name="ClientConnection" connectionDisplayString="ClientBTSSSQLConnectionString (Settings)" isAppSettings="true" appSettingsObjectName="Settings" appSettingsPropertyName="ClientBTSSSQLConnectionString" appSettingsPropertyReference="" />
+    <syncConnection Id="400b8a10-2dfc-466d-813c-e47368d11af2" name="ServerConnection" connectionDisplayString="ServerBTSSSQLConnectionString (Settings)" isAppSettings="true" appSettingsObjectName="Settings" appSettingsPropertyName="ServerBTSSSQLConnectionString" appSettingsPropertyReference="" />
+  </syncConnections>
+</syncDesignerSurface>

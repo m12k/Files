@@ -1,0 +1,1414 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4bc07491-3d95-4347-b9d4-3821d802ac83" name="cajandm@VMANNMBPS1 2013-12-03 13:59:19" runUser="PRD\cajandm" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="9938835e-c373-49d2-b181-b871fef7d88c">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Projects\C#\BTSS V3\TestResults\cajandm_VMANNMBPS1 2013-12-03 13_59_19">
+      <DeploymentItem filename="C:\Projects\C#\BTSS V3\BTSS.Logic\bin\Debug\BTSS.Logic.dll" />
+      <DeploymentItem filename="C:\Projects\C#\BTSS V3\BTSS.Common\bin\Debug\BTSS.Common.dll" />
+      <DeploymentItem filename="C:\Projects\C#\BTSS V3\BTSS.Data\bin\Debug\BTSS.Data.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="94" executed="51" error="0" failed="5" timeout="0" aborted="1" inconclusive="45" passedButRunAborted="0" notRunnable="0" notExecuted="43" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="VMANNMBPS1" outcome="Error" timestamp="2013-12-03T14:00:48.4378624-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2013-12-03T13:59:19.1085940-05:00" queuing="2013-12-03T13:59:28.9993456-05:00" start="2013-12-03T13:59:29.7337300-05:00" finish="2013-12-03T14:00:48.4534876-05:00" />
+  <TestDefinitions>
+    <UnitTest name="FileTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="497ed548-6c7e-0ac6-9a12-d0f23c66f67d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a07e8150-87f5-4184-a851-f8d503428cb6" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="FileTest" />
+    </UnitTest>
+    <UnitTest name="UserConstructorTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="540f0c17-3ca7-83ce-ee69-c545db0ff423">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="UserConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MiddleNameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="6ca430f0-c317-9119-7387-1e3bf64192e3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="MiddleNameTest" />
+    </UnitTest>
+    <UnitTest name="SharepointURLTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="bcca1dd3-0bdc-1891-6291-09af405d2d30">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e631d4bb-a78c-42b3-8dd9-57608860cca4" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="SharepointURLTest" />
+    </UnitTest>
+    <UnitTest name="UserConstructorTest1" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="ecc0c380-c7da-4c1b-837f-342b54df4531">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="UserConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="OtherContactTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="39964784-129d-baa8-bb63-0015e9c82e88">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bcc4331a-6acd-414c-b778-760944b90b62" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="OtherContactTest" />
+    </UnitTest>
+    <UnitTest name="detach_UserProjectTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="2480de0b-4a49-57ce-f7ba-0d2ae90c5e4c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="detach_UserProjectTest" />
+    </UnitTest>
+    <UnitTest name="DatasourceTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="59c41cb2-74ac-bfef-c517-c0f0209c7e8d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b87a8e32-587b-4870-92b0-4926ba86f6d3" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="DatasourceTest" />
+    </UnitTest>
+    <UnitTest name="CreatedDateTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="0a39283f-c98c-b216-bba4-06227ae62cb4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="933e42bb-6160-48f7-86d6-0f803b5d84c5" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="CreatedDateTest" />
+    </UnitTest>
+    <UnitTest name="SendPropertyChangedTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="d3294518-ecbe-f0c2-8259-c47de2696a3f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <Execution id="264042ce-46ed-4929-96bc-11e74d480b4b" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="SendPropertyChangedTest" />
+    </UnitTest>
+    <UnitTest name="detach_UserProjectTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="6d83cf61-acd1-b24e-63d8-3548d3072f10">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="detach_UserProjectTest" />
+    </UnitTest>
+    <UnitTest name="OperationTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="2c2a1cd4-506d-358d-fac7-22bf56a5c0e0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="OperationTest" />
+    </UnitTest>
+    <UnitTest name="GetProjectListTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="22909dd9-7cde-bf21-d09d-4f7a6302c063">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="GetProjectListTest" />
+    </UnitTest>
+    <UnitTest name="SaveTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="df9b1be2-c2c8-8beb-bcbc-7a2c40f605d3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8546b1a8-8b57-4a81-812b-c597cf3da4e9" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="SaveTest" />
+    </UnitTest>
+    <UnitTest name="GetUserListTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="1973d340-d998-c55b-824b-3f0b36d8d979">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="GetUserListTest" />
+    </UnitTest>
+    <UnitTest name="ValueTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="1588a8ba-efe4-9a2a-6cdc-06d2aaa6ceb7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9cb87be7-af84-4a7b-90b8-37f7751cd130" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.IPreferencesTest, TestProject1" name="ValueTest" />
+    </UnitTest>
+    <UnitTest name="IdTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="3f262e5a-fd32-0232-ad09-5c4990ced4d3">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="IdTest" />
+    </UnitTest>
+    <UnitTest name="NameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="cef039ff-52e8-d727-08e8-9b89f5f6e038">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="eef7a6be-8f18-4c4c-ac5c-b4c16cf92813" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="NameTest" />
+    </UnitTest>
+    <UnitTest name="DataUserGroupTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="f28d0f24-ecc3-7de7-5065-22b58cb52825">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="DataUserGroupTest" />
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="9d8028cf-1ce9-244e-1498-c751ee9d1d6c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7db00389-ed31-4cb0-a6d2-782b81238269" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="PasswordTest" />
+    </UnitTest>
+    <UnitTest name="GetUserDetailsTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="97be726a-10a7-c53e-97e1-7254e284ee0b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="GetUserDetailsTest" />
+    </UnitTest>
+    <UnitTest name="SQLPasswordTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="79436496-f44f-87a7-4d9e-6cbfdef7412a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="df54402b-f6d0-4f3f-9be3-606cca7b28a4" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="SQLPasswordTest" />
+    </UnitTest>
+    <UnitTest name="IsActiveTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="657121e9-e81e-ccdd-f956-5fd8f2258c3c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="75bd1ad1-97bb-459a-8d0f-17d1d537fbd2" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="IsActiveTest" />
+    </UnitTest>
+    <UnitTest name="CreatedDateTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="9b8112c6-e0ec-8e44-1226-9563b2887711">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="CreatedDateTest" />
+    </UnitTest>
+    <UnitTest name="DatabaseNameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="95dfe3cd-0145-0629-6a90-61f9656ee021">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="045119e0-3c99-4f77-ae6d-e861e9dbdcb5" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="DatabaseNameTest" />
+    </UnitTest>
+    <UnitTest name="GetUsersProjectListTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="3f3604ef-ea2f-f52f-6f53-88b2aa0a7e45">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="GetUsersProjectListTest" />
+    </UnitTest>
+    <UnitTest name="SendPropertyChangingTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="8aa4aaea-7ba6-38c2-9046-6f99f835cd0f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="SendPropertyChangingTest" />
+    </UnitTest>
+    <UnitTest name="ModifiedDateTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="22009a20-a7d1-12fc-add4-c8fff320dc64">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="ModifiedDateTest" />
+    </UnitTest>
+    <UnitTest name="ProjectConstructorTest1" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="cbc1c766-6c15-885a-4b5c-3b59c3e7b52a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="ProjectConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="SendPropertyChangingTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="7b56adfc-d2c8-fc02-4a73-a66205c5f08c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <Execution id="f165c078-6fd7-45e6-bde8-ab5c0a8370da" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="SendPropertyChangingTest" />
+    </UnitTest>
+    <UnitTest name="ProviderTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="1636814a-c2fd-190c-f7e0-a2c2c533a8e2">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bb404e00-237c-4990-bbb9-9ddc628063d2" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="ProviderTest" />
+    </UnitTest>
+    <UnitTest name="GetProjectListForReportTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="e6ed4dc5-4758-4557-0f6b-37c6643c20b4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="GetProjectListForReportTest" />
+    </UnitTest>
+    <UnitTest name="PasswordTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="469d3ade-ff40-300b-9fda-5ced53a66eb0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="PasswordTest" />
+    </UnitTest>
+    <UnitTest name="TagTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="4ebd271f-5053-62d0-0f71-e4deaec710c9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bed69012-39cd-4fda-a04d-b01d7901eb74" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="TagTest" />
+    </UnitTest>
+    <UnitTest name="attach_UserProjectTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="641b9662-6676-7585-617e-8a504e301795">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="attach_UserProjectTest" />
+    </UnitTest>
+    <UnitTest name="attach_UserGroupTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="e31fee9d-bcf2-0886-bd34-5cf1bb3a3e32">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="attach_UserGroupTest" />
+    </UnitTest>
+    <UnitTest name="AccessPasswordTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="1e694666-5b0c-eb8b-94b7-67e176165dda">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6c2c1fe4-ff14-476c-8985-1472e9d8d51b" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="AccessPasswordTest" />
+    </UnitTest>
+    <UnitTest name="PathErrorLogTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="01ad51a5-e2c4-e78b-28f8-000eaae1f6a4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="64d8bcdd-47bc-4692-93a6-14a21aa025e2" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="PathErrorLogTest" />
+    </UnitTest>
+    <UnitTest name="VersionTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="8d129c2e-8aed-d9e1-2978-e648b851cd89">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="10b325de-1d9a-4b37-8839-3438521c32cf" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="VersionTest" />
+    </UnitTest>
+    <UnitTest name="EnableBypassKeyTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="81994bc9-cb55-1a65-abed-e88772cd559f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="87b63aac-5880-4d5b-b4fc-678dfa321cce" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="EnableBypassKeyTest" />
+    </UnitTest>
+    <UnitTest name="TimeStampTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="4d23f9c7-aee8-a76a-06b1-26b54faf615f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="TimeStampTest" />
+    </UnitTest>
+    <UnitTest name="GetUserDetailsByUserNameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="93bdbe77-bed0-850e-02dc-b91a05b5851e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="GetUserDetailsByUserNameTest" />
+    </UnitTest>
+    <UnitTest name="FirstNameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="28ef9b35-5ae5-3b55-3d08-30e669a1b534">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="FirstNameTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="03971d42-3c22-ca7c-0718-417c2c14fc7f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="GetProjectDetailsTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="aecb608b-5a16-98ae-b52a-13f05680af74">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="GetProjectDetailsTest" />
+    </UnitTest>
+    <UnitTest name="UserProjectTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="6051909d-235a-43a7-ec37-ad52c453833b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="UserProjectTest" />
+    </UnitTest>
+    <UnitTest name="ModifiedByTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="13ef9c2c-aae9-61c8-4101-247f3c094afa">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="87955b36-cfa1-454b-a55a-a5fdd1cd103a" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="ModifiedByTest" />
+    </UnitTest>
+    <UnitTest name="TesterTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="37a604ba-78c3-6dd9-ad57-6d5ff2bbb189">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="25722c68-19ad-49b1-84f8-7b36466aed83" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="TesterTest" />
+    </UnitTest>
+    <UnitTest name="ModifiedDateTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="c5ea1ed3-db9f-62bb-c877-ec801f244edc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="df1c6286-61d2-4564-961e-f7bc4c727d96" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="ModifiedDateTest" />
+    </UnitTest>
+    <UnitTest name="IdTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="83daadfa-8ebd-87ab-4d96-5632d38f5615">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a0e5b342-54d1-4a9d-9830-963036719f2c" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="IdTest" />
+    </UnitTest>
+    <UnitTest name="LastNameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="abf3a2af-ab02-0f4b-52d0-c8af68f2627b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="LastNameTest" />
+    </UnitTest>
+    <UnitTest name="detach_UserGroupTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="367c1214-2e3c-cda4-77d6-c7db749191fe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="detach_UserGroupTest" />
+    </UnitTest>
+    <UnitTest name="SaveTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="a87357da-5fdd-78dc-b989-326f4a824841">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="af1f8df9-2fab-45d2-aec1-f388a637cba2" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.IPreferencesTest, TestProject1" name="SaveTest" />
+    </UnitTest>
+    <UnitTest name="SaveTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="c470edd7-1d6c-26c8-1cdd-22d4290f34bd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="SaveTest" />
+    </UnitTest>
+    <UnitTest name="SQLUserIdTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="ceeb2e44-a751-c3f6-be9a-065f48dd07c1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3c755c1b-e165-4c69-a3bd-b0aa0f0fc854" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="SQLUserIdTest" />
+    </UnitTest>
+    <UnitTest name="SaveTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="54c40540-5274-3874-6d7f-060eff454790">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="SaveTest" />
+    </UnitTest>
+    <UnitTest name="GetUserProjectsTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="4c1b2359-6441-bfdb-9821-1a61ef2fd64e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="GetUserProjectsTest" />
+    </UnitTest>
+    <UnitTest name="DataUserProjectTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="43ebcbeb-8b7f-33be-80e5-53d71eb4ec97">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="DataUserProjectTest" />
+    </UnitTest>
+    <UnitTest name="SendPropertyChangingTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="5ebe4323-83ba-d2d6-e146-371dd2d747cf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <Execution id="59407c60-eddb-41cf-862d-90acc7335a00" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="SendPropertyChangingTest" />
+    </UnitTest>
+    <UnitTest name="MDWTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="51197efb-52ae-13f7-75dc-10e1a208406b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="57196b76-9461-4d0f-b489-429166d3273a" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="MDWTest" />
+    </UnitTest>
+    <UnitTest name="SendPropertyChangedTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="1f655269-6845-b00b-96c5-a12e456c80cc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="SendPropertyChangedTest" />
+    </UnitTest>
+    <UnitTest name="UserGroupTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="14e00c4c-4470-9547-7064-3173a6b9a85f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="UserGroupTest" />
+    </UnitTest>
+    <UnitTest name="AccessUserIdTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="2868044b-a93d-334a-8734-167c8d60dfc9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4fdbb679-e7ca-4273-a26a-3b574f6f473e" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="AccessUserIdTest" />
+    </UnitTest>
+    <UnitTest name="IdTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="2dad1ad4-8af3-a5c4-4274-392e66c48849">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2159a4d2-46b0-4de0-b00f-7f52e9735c9a" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="IdTest" />
+    </UnitTest>
+    <UnitTest name="ProjectConstructorTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="35a079d4-9b1b-d4bb-2845-faebfa8db84d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="ProjectConstructorTest" />
+    </UnitTest>
+    <UnitTest name="TimeStampTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="acb2a384-1193-5958-e440-6c18628917d9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="80d1c932-e8d4-4d40-aa2a-92d8023ea597" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="TimeStampTest" />
+    </UnitTest>
+    <UnitTest name="SendPropertyChangedTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="855df6d3-698e-41c1-53b9-9f4abde3f99f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <Execution id="c11d8d85-2006-4b39-82a1-570d5e84a1c4" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="SendPropertyChangedTest" />
+    </UnitTest>
+    <UnitTest name="IdTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="dd8faf88-f334-37e2-b969-f74a51eca42e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="37444e88-50be-43a4-9d22-485025492bb9" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.IPreferencesTest, TestProject1" name="IdTest" />
+    </UnitTest>
+    <UnitTest name="GetValueTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="643e95ea-db84-08e3-3330-d4623748a190">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="14c6cedc-1af5-4f69-ba9c-a6b9722116a8" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="GetValueTest" />
+    </UnitTest>
+    <UnitTest name="GetUserGroupTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="d3b53f43-f281-4819-aed4-d6b69d6432fb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="GetUserGroupTest" />
+    </UnitTest>
+    <UnitTest name="SQLDatabaseNameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="f7f3509f-3d6a-9fdd-458d-74c5a0531aaf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="86f4ba4f-e1ed-4be2-be7c-af533a54f033" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="SQLDatabaseNameTest" />
+    </UnitTest>
+    <UnitTest name="GetProjectListForReportSQLTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="44a0e1b2-7965-31aa-899b-efdd66473391">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="GetProjectListForReportSQLTest" />
+    </UnitTest>
+    <UnitTest name="ValueTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="5161d3c5-7511-95a7-7ba4-b769bbc5a154">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4b43e5eb-01f2-4a8e-948e-462e01207983" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="ValueTest" />
+    </UnitTest>
+    <UnitTest name="UserProjectTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="521f7f9c-4151-9354-9e9a-245527548cf0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f2655943-f5ef-42ce-a290-69967dada815" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="UserProjectTest" />
+    </UnitTest>
+    <UnitTest name="DescTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="f18fb85e-a36c-0664-87bf-72c42015f160">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a7190491-980d-4868-8bb7-c9cda82ba7ee" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="DescTest" />
+    </UnitTest>
+    <UnitTest name="IsProjectAllowToDeleteTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="166328c6-810d-a56b-65af-d97df5b11702">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="IsProjectAllowToDeleteTest" />
+    </UnitTest>
+    <UnitTest name="OperationTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="822373eb-c94f-3100-aea0-38245549c43e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="bfec3c2c-dd92-4a01-93a7-86ab75420399" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="OperationTest" />
+    </UnitTest>
+    <UnitTest name="UserNameTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="dc52fa1b-d50f-b1b1-665f-f4093ddc5b17">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="UserNameTest" />
+    </UnitTest>
+    <UnitTest name="HasOtherDetailsTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="bd6b98a8-9bf5-9da0-1799-6b3f984da5da">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="018a8584-f071-4caa-8c0f-c2207e762837" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="HasOtherDetailsTest" />
+    </UnitTest>
+    <UnitTest name="GetAccessRightsTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="7db0d747-d7df-da55-baae-39beafe63572">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="GetAccessRightsTest" />
+    </UnitTest>
+    <UnitTest name="OperationTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="3a5b6de8-df00-16a7-407f-9902309f3d01">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d090a6e9-1114-4ae4-968d-a1d74d6e3c48" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.IPreferencesTest, TestProject1" name="OperationTest" />
+    </UnitTest>
+    <UnitTest name="IsUserValidTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="20b1e5b8-e310-8a4b-8623-a7a20183393f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="IsUserValidTest" />
+    </UnitTest>
+    <UnitTest name="PreferencesConstructorTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="119b4651-1914-5e48-7454-40004da71345">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fb61af21-957a-49c8-bc7f-b92893719e47" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="PreferencesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CreatedByTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="95dba83d-d741-54a7-d063-dee9b0380435">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="baf2464a-ae16-4d3f-af48-fc2e607b4d5b" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="CreatedByTest" />
+    </UnitTest>
+    <UnitTest name="BusinessOwnerTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="377b2dea-c631-6b45-86e0-61d960510808">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f4dd7556-3414-4ae7-959f-16c0fe2b272b" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="BusinessOwnerTest" />
+    </UnitTest>
+    <UnitTest name="PreferencesConstructorTest1" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="66ada401-2808-a46d-d12b-23e24d2d10bf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fee4d378-50fa-4596-b416-6176a632c5b8" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreferencesTest, TestProject1" name="PreferencesConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="ModifiedByTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="7bfd7ca1-fceb-45b6-da03-a4223c66c3cc">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="ModifiedByTest" />
+    </UnitTest>
+    <UnitTest name="OperationTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="1040f6c1-3510-295b-e7e3-d4dfafabb31c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="42dc75cf-df94-42f8-8e84-339e45d15328" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="OperationTest" />
+    </UnitTest>
+    <UnitTest name="attach_UserProjectTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="b4a0cd3a-bebc-06bd-f7e4-18372beff22a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="BTSS.Logic.dll" />
+      </DeploymentItems>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="attach_UserProjectTest" />
+    </UnitTest>
+    <UnitTest name="CreatedByTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="916f0f2d-cb08-728b-bb58-ff47b98e1656">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UserTest, TestProject1" name="CreatedByTest" />
+    </UnitTest>
+    <UnitTest name="TagTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="9861cf8c-84a0-f53c-b5c0-7bd4e088f581">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="871e90c3-2b63-41f6-a10f-0180ed109716" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.IPreferencesTest, TestProject1" name="TagTest" />
+    </UnitTest>
+    <UnitTest name="GetValueTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="88c5eb79-581e-aa73-ca08-c033a78676a8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="36ef4d5b-20ed-409f-b95c-da22686ebe43" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.IPreferencesTest, TestProject1" name="GetValueTest" />
+    </UnitTest>
+    <UnitTest name="UserIDTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="138c44d1-651f-c6e8-7c30-3e0999e1b4da">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="52604775-11b8-43c2-8dd9-57e96d6d7205" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="UserIDTest" />
+    </UnitTest>
+    <UnitTest name="DataProviderTest" storage="c:\projects\c#\btss v3\testproject1\bin\debug\testproject1.dll" id="0fb48b1f-5287-d0cd-8424-7ff3600e1c33">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="01341375-6a68-43d3-87f7-8e9373719d39" />
+      <TestMethod codeBase="C:\Projects\C#\BTSS V3\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.ProjectTest, TestProject1" name="DataProviderTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1588a8ba-efe4-9a2a-6cdc-06d2aaa6ceb7" executionId="9cb87be7-af84-4a7b-90b8-37f7751cd130" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9861cf8c-84a0-f53c-b5c0-7bd4e088f581" executionId="871e90c3-2b63-41f6-a10f-0180ed109716" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a5b6de8-df00-16a7-407f-9902309f3d01" executionId="d090a6e9-1114-4ae4-968d-a1d74d6e3c48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd8faf88-f334-37e2-b969-f74a51eca42e" executionId="37444e88-50be-43a4-9d22-485025492bb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a87357da-5fdd-78dc-b989-326f4a824841" executionId="af1f8df9-2fab-45d2-aec1-f388a637cba2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="88c5eb79-581e-aa73-ca08-c033a78676a8" executionId="36ef4d5b-20ed-409f-b95c-da22686ebe43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5161d3c5-7511-95a7-7ba4-b769bbc5a154" executionId="4b43e5eb-01f2-4a8e-948e-462e01207983" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ebd271f-5053-62d0-0f71-e4deaec710c9" executionId="bed69012-39cd-4fda-a04d-b01d7901eb74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="822373eb-c94f-3100-aea0-38245549c43e" executionId="bfec3c2c-dd92-4a01-93a7-86ab75420399" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dad1ad4-8af3-a5c4-4274-392e66c48849" executionId="2159a4d2-46b0-4de0-b00f-7f52e9735c9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ebe4323-83ba-d2d6-e146-371dd2d747cf" executionId="59407c60-eddb-41cf-862d-90acc7335a00" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="855df6d3-698e-41c1-53b9-9f4abde3f99f" executionId="c11d8d85-2006-4b39-82a1-570d5e84a1c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df9b1be2-c2c8-8beb-bcbc-7a2c40f605d3" executionId="8546b1a8-8b57-4a81-812b-c597cf3da4e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="643e95ea-db84-08e3-3330-d4623748a190" executionId="14c6cedc-1af5-4f69-ba9c-a6b9722116a8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66ada401-2808-a46d-d12b-23e24d2d10bf" executionId="fee4d378-50fa-4596-b416-6176a632c5b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="119b4651-1914-5e48-7454-40004da71345" executionId="fb61af21-957a-49c8-bc7f-b92893719e47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d129c2e-8aed-d9e1-2978-e648b851cd89" executionId="10b325de-1d9a-4b37-8839-3438521c32cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="521f7f9c-4151-9354-9e9a-245527548cf0" executionId="f2655943-f5ef-42ce-a290-69967dada815" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="138c44d1-651f-c6e8-7c30-3e0999e1b4da" executionId="52604775-11b8-43c2-8dd9-57e96d6d7205" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="acb2a384-1193-5958-e440-6c18628917d9" executionId="80d1c932-e8d4-4d40-aa2a-92d8023ea597" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37a604ba-78c3-6dd9-ad57-6d5ff2bbb189" executionId="25722c68-19ad-49b1-84f8-7b36466aed83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceeb2e44-a751-c3f6-be9a-065f48dd07c1" executionId="3c755c1b-e165-4c69-a3bd-b0aa0f0fc854" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79436496-f44f-87a7-4d9e-6cbfdef7412a" executionId="df54402b-f6d0-4f3f-9be3-606cca7b28a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7f3509f-3d6a-9fdd-458d-74c5a0531aaf" executionId="86f4ba4f-e1ed-4be2-be7c-af533a54f033" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bcca1dd3-0bdc-1891-6291-09af405d2d30" executionId="e631d4bb-a78c-42b3-8dd9-57608860cca4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1636814a-c2fd-190c-f7e0-a2c2c533a8e2" executionId="bb404e00-237c-4990-bbb9-9ddc628063d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="01ad51a5-e2c4-e78b-28f8-000eaae1f6a4" executionId="64d8bcdd-47bc-4692-93a6-14a21aa025e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d8028cf-1ce9-244e-1498-c751ee9d1d6c" executionId="7db00389-ed31-4cb0-a6d2-782b81238269" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="39964784-129d-baa8-bb63-0015e9c82e88" executionId="bcc4331a-6acd-414c-b778-760944b90b62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1040f6c1-3510-295b-e7e3-d4dfafabb31c" executionId="42dc75cf-df94-42f8-8e84-339e45d15328" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cef039ff-52e8-d727-08e8-9b89f5f6e038" executionId="eef7a6be-8f18-4c4c-ac5c-b4c16cf92813" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5ea1ed3-db9f-62bb-c877-ec801f244edc" executionId="df1c6286-61d2-4564-961e-f7bc4c727d96" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13ef9c2c-aae9-61c8-4101-247f3c094afa" executionId="87955b36-cfa1-454b-a55a-a5fdd1cd103a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51197efb-52ae-13f7-75dc-10e1a208406b" executionId="57196b76-9461-4d0f-b489-429166d3273a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="657121e9-e81e-ccdd-f956-5fd8f2258c3c" executionId="75bd1ad1-97bb-459a-8d0f-17d1d537fbd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83daadfa-8ebd-87ab-4d96-5632d38f5615" executionId="a0e5b342-54d1-4a9d-9830-963036719f2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd6b98a8-9bf5-9da0-1799-6b3f984da5da" executionId="018a8584-f071-4caa-8c0f-c2207e762837" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="497ed548-6c7e-0ac6-9a12-d0f23c66f67d" executionId="a07e8150-87f5-4184-a851-f8d503428cb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81994bc9-cb55-1a65-abed-e88772cd559f" executionId="87b63aac-5880-4d5b-b4fc-678dfa321cce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f18fb85e-a36c-0664-87bf-72c42015f160" executionId="a7190491-980d-4868-8bb7-c9cda82ba7ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59c41cb2-74ac-bfef-c517-c0f0209c7e8d" executionId="b87a8e32-587b-4870-92b0-4926ba86f6d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0fb48b1f-5287-d0cd-8424-7ff3600e1c33" executionId="01341375-6a68-43d3-87f7-8e9373719d39" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95dfe3cd-0145-0629-6a90-61f9656ee021" executionId="045119e0-3c99-4f77-ae6d-e861e9dbdcb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0a39283f-c98c-b216-bba4-06227ae62cb4" executionId="933e42bb-6160-48f7-86d6-0f803b5d84c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95dba83d-d741-54a7-d063-dee9b0380435" executionId="baf2464a-ae16-4d3f-af48-fc2e607b4d5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="377b2dea-c631-6b45-86e0-61d960510808" executionId="f4dd7556-3414-4ae7-959f-16c0fe2b272b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2868044b-a93d-334a-8734-167c8d60dfc9" executionId="4fdbb679-e7ca-4273-a26a-3b574f6f473e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e694666-5b0c-eb8b-94b7-67e176165dda" executionId="6c2c1fe4-ff14-476c-8985-1472e9d8d51b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b56adfc-d2c8-fc02-4a73-a66205c5f08c" executionId="f165c078-6fd7-45e6-bde8-ab5c0a8370da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3294518-ecbe-f0c2-8259-c47de2696a3f" executionId="264042ce-46ed-4929-96bc-11e74d480b4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c470edd7-1d6c-26c8-1cdd-22d4290f34bd" executionId="efacd9f1-d472-45c6-a892-12a359ca85b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="166328c6-810d-a56b-65af-d97df5b11702" executionId="b0491ec3-b40e-40d8-8826-a42d141fefa3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="44a0e1b2-7965-31aa-899b-efdd66473391" executionId="ad78f4ab-fdb7-47dc-a13b-3a7afa375e88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6ed4dc5-4758-4557-0f6b-37c6643c20b4" executionId="58b3b271-a239-4220-adc6-1542e7d5dfd6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22909dd9-7cde-bf21-d09d-4f7a6302c063" executionId="bec1b78d-bf17-40e7-a4cc-35b54cc245ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aecb608b-5a16-98ae-b52a-13f05680af74" executionId="62ce4e6d-aea4-4522-adef-f6fe4f2e7c0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2480de0b-4a49-57ce-f7ba-0d2ae90c5e4c" executionId="b3a8f597-6eb2-45b2-b3ff-dbbc02ad973b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="641b9662-6676-7585-617e-8a504e301795" executionId="cca75cae-d2e1-4e2b-8cbd-3f8ea7602c29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbc1c766-6c15-885a-4b5c-3b59c3e7b52a" executionId="a9c55ff8-9cbc-490b-915b-238aeca23548" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35a079d4-9b1b-d4bb-2845-faebfa8db84d" executionId="45ee7307-4ec3-4e75-b203-58df73f146d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6051909d-235a-43a7-ec37-ad52c453833b" executionId="ce43f92f-d07f-49fc-ab4e-9dbb51bf2fb1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc52fa1b-d50f-b1b1-665f-f4093ddc5b17" executionId="582385df-5cd9-4149-a9e4-f78d7b77afd0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14e00c4c-4470-9547-7064-3173a6b9a85f" executionId="df351f23-c2f7-4b62-a2b6-3d6b5dbcebd2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d23f9c7-aee8-a76a-06b1-26b54faf615f" executionId="0849c043-39db-4893-a81b-8e74522eb7f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="469d3ade-ff40-300b-9fda-5ced53a66eb0" executionId="ef207002-d89f-4ecb-bffc-9dcae3cccab7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2c2a1cd4-506d-358d-fac7-22bf56a5c0e0" executionId="56b74194-c4a5-4e54-b88c-54def7d6381a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="22009a20-a7d1-12fc-add4-c8fff320dc64" executionId="25ebcef8-536b-4a2b-ab20-371c5fef7bca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bfd7ca1-fceb-45b6-da03-a4223c66c3cc" executionId="9d945960-61bc-4a72-8cf8-6f4dfe81ec44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ca430f0-c317-9119-7387-1e3bf64192e3" executionId="9dfb653a-3cfc-49ee-a0ae-66b7c8591e76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abf3a2af-ab02-0f4b-52d0-c8af68f2627b" executionId="692df81b-5b5b-44d7-989a-7c4dbd7df9d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f262e5a-fd32-0232-ad09-5c4990ced4d3" executionId="8a98d4b5-d531-4d9b-9125-f5ad1df85c75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28ef9b35-5ae5-3b55-3d08-30e669a1b534" executionId="6c52cd3c-20c7-48fe-9443-028aba1ce712" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="43ebcbeb-8b7f-33be-80e5-53d71eb4ec97" executionId="f19f0935-a82b-459b-b52b-89f5ea21b5fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f28d0f24-ecc3-7de7-5065-22b58cb52825" executionId="dfdec4df-5e8e-43d6-8107-a2db02c4ccaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9b8112c6-e0ec-8e44-1226-9563b2887711" executionId="428b82ff-2eed-49c1-ae61-033183ba9de6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="916f0f2d-cb08-728b-bb58-ff47b98e1656" executionId="2a480a10-0183-40db-90f4-78e7aa28262a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8aa4aaea-7ba6-38c2-9046-6f99f835cd0f" executionId="7fe3c158-7231-4d8a-aeba-491e32010dc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1f655269-6845-b00b-96c5-a12e456c80cc" executionId="5ca10dc7-dcb7-408b-b17a-c88826b566ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54c40540-5274-3874-6d7f-060eff454790" executionId="0151b77a-b0c2-4e84-87ff-5f20347871af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20b1e5b8-e310-8a4b-8623-a7a20183393f" executionId="11127939-3b30-4090-bf97-50e0985ff5cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f3604ef-ea2f-f52f-6f53-88b2aa0a7e45" executionId="dac75b89-2076-4b19-95c8-9b1cf2327c23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4c1b2359-6441-bfdb-9821-1a61ef2fd64e" executionId="11a00121-e325-41b0-942f-c2fce531d3db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1973d340-d998-c55b-824b-3f0b36d8d979" executionId="96926e6c-0010-4852-a138-2824c3938623" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3b53f43-f281-4819-aed4-d6b69d6432fb" executionId="463035e6-2186-4918-8919-9c80083ce344" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93bdbe77-bed0-850e-02dc-b91a05b5851e" executionId="19444e6d-c937-40e9-be7c-7f959dec4c1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="97be726a-10a7-c53e-97e1-7254e284ee0b" executionId="afa198c5-5b24-4230-bb63-3b5ca96e2032" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7db0d747-d7df-da55-baae-39beafe63572" executionId="fdc7055a-99a6-4cdf-8446-ca46e966af43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03971d42-3c22-ca7c-0718-417c2c14fc7f" executionId="e8830fa9-857e-4350-a3d9-1d2034e5fbd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d83cf61-acd1-b24e-63d8-3548d3072f10" executionId="336caf38-4007-43ef-9542-e5e35bedb4ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="367c1214-2e3c-cda4-77d6-c7db749191fe" executionId="b37fae9e-e2ef-4f73-8841-f918b05e91d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b4a0cd3a-bebc-06bd-f7e4-18372beff22a" executionId="0085511d-0286-4470-9cfe-d6e7b2c080ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e31fee9d-bcf2-0886-bd34-5cf1bb3a3e32" executionId="4fd732b1-d102-466c-b552-707484d19e4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ecc0c380-c7da-4c1b-837f-342b54df4531" executionId="0c7dbc10-db7a-41ee-9b7d-1e364faf6e73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="540f0c17-3ca7-83ce-ee69-c545db0ff423" executionId="8192f596-403a-4185-ba0f-472d234debcc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9cb87be7-af84-4a7b-90b8-37f7751cd130" testId="1588a8ba-efe4-9a2a-6cdc-06d2aaa6ceb7" testName="ValueTest" computerName="VMANNMBPS1" duration="00:00:00.4309690" startTime="2013-12-03T13:59:29.9524828-05:00" endTime="2013-12-03T13:59:31.4681272-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.IPreferencesTest.ValueTest() in C:\Projects\C#\BTSS V3\TestProject1\IPreferencesTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="871e90c3-2b63-41f6-a10f-0180ed109716" testId="9861cf8c-84a0-f53c-b5c0-7bd4e088f581" testName="TagTest" computerName="VMANNMBPS1" duration="00:00:37.8388552" startTime="2013-12-03T13:59:31.4837524-05:00" endTime="2013-12-03T14:00:09.5779900-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.IPreferencesTest.TagTest() in C:\Projects\C#\BTSS V3\TestProject1\IPreferencesTest.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d090a6e9-1114-4ae4-968d-a1d74d6e3c48" testId="3a5b6de8-df00-16a7-407f-9902309f3d01" testName="OperationTest" computerName="VMANNMBPS1" duration="00:00:00.0291950" startTime="2013-12-03T14:00:09.6092404-05:00" endTime="2013-12-03T14:00:09.6561160-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.IPreferencesTest.OperationTest() in C:\Projects\C#\BTSS V3\TestProject1\IPreferencesTest.cs:line 109
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="37444e88-50be-43a4-9d22-485025492bb9" testId="dd8faf88-f334-37e2-b969-f74a51eca42e" testName="IdTest" computerName="VMANNMBPS1" duration="00:00:00.0187772" startTime="2013-12-03T14:00:09.6561160-05:00" endTime="2013-12-03T14:00:09.7029916-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.IPreferencesTest.IdTest() in C:\Projects\C#\BTSS V3\TestProject1\IPreferencesTest.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="af1f8df9-2fab-45d2-aec1-f388a637cba2" testId="a87357da-5fdd-78dc-b989-326f4a824841" testName="SaveTest" computerName="VMANNMBPS1" duration="00:00:28.6962387" startTime="2013-12-03T14:00:09.7029916-05:00" endTime="2013-12-03T14:00:38.4533596-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.IPreferencesTest.SaveTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at BTSS.Logic.Preferences.Save() in C:\Projects\C#\BTSS V3\BTSS.Logic\Preferences.cs:line 45
+   at TestProject1.IPreferencesTest.SaveTest() in C:\Projects\C#\BTSS V3\TestProject1\IPreferencesTest.cs:line 134
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="36ef4d5b-20ed-409f-b95c-da22686ebe43" testId="88c5eb79-581e-aa73-ca08-c033a78676a8" testName="GetValueTest" computerName="VMANNMBPS1" duration="00:00:00.1310484" startTime="2013-12-03T14:00:38.5002352-05:00" endTime="2013-12-03T14:00:38.6564872-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.IPreferencesTest.GetValueTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at BTSS.Logic.Preferences.GetValue(Preferences preferences) in C:\Projects\C#\BTSS V3\BTSS.Logic\Preferences.cs:line 65
+   at TestProject1.IPreferencesTest.GetValueTest() in C:\Projects\C#\BTSS V3\TestProject1\IPreferencesTest.cs:line 156
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b43e5eb-01f2-4a8e-948e-462e01207983" testId="5161d3c5-7511-95a7-7ba4-b769bbc5a154" testName="ValueTest" computerName="VMANNMBPS1" duration="00:00:00.0489894" startTime="2013-12-03T14:00:38.6564872-05:00" endTime="2013-12-03T14:00:38.7189880-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.ValueTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bed69012-39cd-4fda-a04d-b01d7901eb74" testId="4ebd271f-5053-62d0-0f71-e4deaec710c9" testName="TagTest" computerName="VMANNMBPS1" duration="00:00:00.0250987" startTime="2013-12-03T14:00:38.7346132-05:00" endTime="2013-12-03T14:00:38.7658636-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.TagTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bfec3c2c-dd92-4a01-93a7-86ab75420399" testId="822373eb-c94f-3100-aea0-38245549c43e" testName="OperationTest" computerName="VMANNMBPS1" duration="00:00:00.0309371" startTime="2013-12-03T14:00:38.7814888-05:00" endTime="2013-12-03T14:00:38.8283644-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.OperationTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 109
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2159a4d2-46b0-4de0-b00f-7f52e9735c9a" testId="2dad1ad4-8af3-a5c4-4274-392e66c48849" testName="IdTest" computerName="VMANNMBPS1" duration="00:00:00.0228475" startTime="2013-12-03T14:00:38.8283644-05:00" endTime="2013-12-03T14:00:38.8752400-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.IdTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 124
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="59407c60-eddb-41cf-862d-90acc7335a00" testId="5ebe4323-83ba-d2d6-e146-371dd2d747cf" testName="SendPropertyChangingTest" computerName="VMANNMBPS1" duration="00:00:00.1714947" startTime="2013-12-03T14:00:38.8908652-05:00" endTime="2013-12-03T14:00:39.0783676-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.SendPropertyChangingTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c11d8d85-2006-4b39-82a1-570d5e84a1c4" testId="855df6d3-698e-41c1-53b9-9f4abde3f99f" testName="SendPropertyChangedTest" computerName="VMANNMBPS1" duration="00:00:00.0442128" startTime="2013-12-03T14:00:39.0783676-05:00" endTime="2013-12-03T14:00:39.1408684-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.SendPropertyChangedTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 149
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8546b1a8-8b57-4a81-812b-c597cf3da4e9" testId="df9b1be2-c2c8-8beb-bcbc-7a2c40f605d3" testName="SaveTest" computerName="VMANNMBPS1" duration="00:00:00.0334916" startTime="2013-12-03T14:00:39.1564936-05:00" endTime="2013-12-03T14:00:39.1877440-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.PreferencesTest.SaveTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at BTSS.Logic.Preferences.Save() in C:\Projects\C#\BTSS V3\BTSS.Logic\Preferences.cs:line 45
+   at TestProject1.PreferencesTest.SaveTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 159
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="14c6cedc-1af5-4f69-ba9c-a6b9722116a8" testId="643e95ea-db84-08e3-3330-d4623748a190" testName="GetValueTest" computerName="VMANNMBPS1" duration="00:00:00.0380118" startTime="2013-12-03T14:00:39.2033692-05:00" endTime="2013-12-03T14:00:39.2658700-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestProject1.PreferencesTest.GetValueTest threw exception:  System.NullReferenceException: Object reference not set to an instance of an object..</Message>
+          <StackTrace>    at BTSS.Logic.Preferences.GetValue(Preferences preferences) in C:\Projects\C#\BTSS V3\BTSS.Logic\Preferences.cs:line 65
+   at TestProject1.PreferencesTest.GetValueTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 173
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fee4d378-50fa-4596-b416-6176a632c5b8" testId="66ada401-2808-a46d-d12b-23e24d2d10bf" testName="PreferencesConstructorTest1" computerName="VMANNMBPS1" duration="00:00:00.6472303" startTime="2013-12-03T14:00:39.2814952-05:00" endTime="2013-12-03T14:00:39.9377536-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.PreferencesConstructorTest1() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 186
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fb61af21-957a-49c8-bc7f-b92893719e47" testId="119b4651-1914-5e48-7454-40004da71345" testName="PreferencesConstructorTest" computerName="VMANNMBPS1" duration="00:00:00.3193735" startTime="2013-12-03T14:00:39.9533788-05:00" endTime="2013-12-03T14:00:40.2815080-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. TODO: Implement code to verify target</Message>
+          <StackTrace>   at TestProject1.PreferencesTest.PreferencesConstructorTest() in C:\Projects\C#\BTSS V3\TestProject1\PreferencesTest.cs:line 196
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="10b325de-1d9a-4b37-8839-3438521c32cf" testId="8d129c2e-8aed-d9e1-2978-e648b851cd89" testName="VersionTest" computerName="VMANNMBPS1" duration="00:00:00.0394793" startTime="2013-12-03T14:00:40.3127584-05:00" endTime="2013-12-03T14:00:40.3752592-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.VersionTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 83
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f2655943-f5ef-42ce-a290-69967dada815" testId="521f7f9c-4151-9354-9e9a-245527548cf0" testName="UserProjectTest" computerName="VMANNMBPS1" duration="00:00:00.0316274" startTime="2013-12-03T14:00:40.3908844-05:00" endTime="2013-12-03T14:00:40.4377600-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;(null)&gt;. Actual:&lt;System.Data.Linq.EntitySet`1[BTSS.Logic.UserProject]&gt;. </Message>
+          <StackTrace>   at TestProject1.ProjectTest.UserProjectTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="52604775-11b8-43c2-8dd9-57e96d6d7205" testId="138c44d1-651f-c6e8-7c30-3e0999e1b4da" testName="UserIDTest" computerName="VMANNMBPS1" duration="00:00:00.0363895" startTime="2013-12-03T14:00:40.4533852-05:00" endTime="2013-12-03T14:00:40.5158860-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.UserIDTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="80d1c932-e8d4-4d40-aa2a-92d8023ea597" testId="acb2a384-1193-5958-e440-6c18628917d9" testName="TimeStampTest" computerName="VMANNMBPS1" duration="00:00:00.0390739" startTime="2013-12-03T14:00:40.5315112-05:00" endTime="2013-12-03T14:00:40.6096372-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.TimeStampTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 128
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25722c68-19ad-49b1-84f8-7b36466aed83" testId="37a604ba-78c3-6dd9-ad57-6d5ff2bbb189" testName="TesterTest" computerName="VMANNMBPS1" duration="00:00:00.0342848" startTime="2013-12-03T14:00:40.6096372-05:00" endTime="2013-12-03T14:00:40.6721380-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.TesterTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 143
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3c755c1b-e165-4c69-a3bd-b0aa0f0fc854" testId="ceeb2e44-a751-c3f6-be9a-065f48dd07c1" testName="SQLUserIdTest" computerName="VMANNMBPS1" duration="00:00:00.0257823" startTime="2013-12-03T14:00:40.6721380-05:00" endTime="2013-12-03T14:00:40.7346388-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.SQLUserIdTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 158
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df54402b-f6d0-4f3f-9be3-606cca7b28a4" testId="79436496-f44f-87a7-4d9e-6cbfdef7412a" testName="SQLPasswordTest" computerName="VMANNMBPS1" duration="00:00:00.0295738" startTime="2013-12-03T14:00:40.7346388-05:00" endTime="2013-12-03T14:00:40.7971396-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.SQLPasswordTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 173
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="86f4ba4f-e1ed-4be2-be7c-af533a54f033" testId="f7f3509f-3d6a-9fdd-458d-74c5a0531aaf" testName="SQLDatabaseNameTest" computerName="VMANNMBPS1" duration="00:00:00.0268620" startTime="2013-12-03T14:00:40.7971396-05:00" endTime="2013-12-03T14:00:40.8440152-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.SQLDatabaseNameTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 188
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e631d4bb-a78c-42b3-8dd9-57608860cca4" testId="bcca1dd3-0bdc-1891-6291-09af405d2d30" testName="SharepointURLTest" computerName="VMANNMBPS1" duration="00:00:00.0365434" startTime="2013-12-03T14:00:40.8440152-05:00" endTime="2013-12-03T14:00:40.8908908-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.SharepointURLTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 203
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb404e00-237c-4990-bbb9-9ddc628063d2" testId="1636814a-c2fd-190c-f7e0-a2c2c533a8e2" testName="ProviderTest" computerName="VMANNMBPS1" duration="00:00:00.0262167" startTime="2013-12-03T14:00:40.9221412-05:00" endTime="2013-12-03T14:00:40.9533916-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.ProviderTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 218
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="64d8bcdd-47bc-4692-93a6-14a21aa025e2" testId="01ad51a5-e2c4-e78b-28f8-000eaae1f6a4" testName="PathErrorLogTest" computerName="VMANNMBPS1" duration="00:00:00.0208892" startTime="2013-12-03T14:00:40.9690168-05:00" endTime="2013-12-03T14:00:41.0158924-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.PathErrorLogTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 233
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7db00389-ed31-4cb0-a6d2-782b81238269" testId="9d8028cf-1ce9-244e-1498-c751ee9d1d6c" testName="PasswordTest" computerName="VMANNMBPS1" duration="00:00:00.0216270" startTime="2013-12-03T14:00:41.0158924-05:00" endTime="2013-12-03T14:00:41.0627680-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.PasswordTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 248
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bcc4331a-6acd-414c-b778-760944b90b62" testId="39964784-129d-baa8-bb63-0015e9c82e88" testName="OtherContactTest" computerName="VMANNMBPS1" duration="00:00:00.4473878" startTime="2013-12-03T14:00:41.0627680-05:00" endTime="2013-12-03T14:00:41.5315240-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.OtherContactTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 263
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="42dc75cf-df94-42f8-8e84-339e45d15328" testId="1040f6c1-3510-295b-e7e3-d4dfafabb31c" testName="OperationTest" computerName="VMANNMBPS1" duration="00:00:00.0256443" startTime="2013-12-03T14:00:41.5471492-05:00" endTime="2013-12-03T14:00:41.5783996-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.OperationTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 278
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="eef7a6be-8f18-4c4c-ac5c-b4c16cf92813" testId="cef039ff-52e8-d727-08e8-9b89f5f6e038" testName="NameTest" computerName="VMANNMBPS1" duration="00:00:00.0238661" startTime="2013-12-03T14:00:41.5940248-05:00" endTime="2013-12-03T14:00:41.6565256-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.NameTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 293
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df1c6286-61d2-4564-961e-f7bc4c727d96" testId="c5ea1ed3-db9f-62bb-c877-ec801f244edc" testName="ModifiedDateTest" computerName="VMANNMBPS1" duration="00:00:00.0455842" startTime="2013-12-03T14:00:41.6721508-05:00" endTime="2013-12-03T14:00:41.7659020-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.ModifiedDateTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 308
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87955b36-cfa1-454b-a55a-a5fdd1cd103a" testId="13ef9c2c-aae9-61c8-4101-247f3c094afa" testName="ModifiedByTest" computerName="VMANNMBPS1" duration="00:00:00.0225481" startTime="2013-12-03T14:00:41.7815272-05:00" endTime="2013-12-03T14:00:41.8127776-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.ModifiedByTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 323
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="57196b76-9461-4d0f-b489-429166d3273a" testId="51197efb-52ae-13f7-75dc-10e1a208406b" testName="MDWTest" computerName="VMANNMBPS1" duration="00:00:00.0245500" startTime="2013-12-03T14:00:41.8127776-05:00" endTime="2013-12-03T14:00:41.8596532-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.MDWTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 338
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75bd1ad1-97bb-459a-8d0f-17d1d537fbd2" testId="657121e9-e81e-ccdd-f956-5fd8f2258c3c" testName="IsActiveTest" computerName="VMANNMBPS1" duration="00:00:00.0270034" startTime="2013-12-03T14:00:41.8752784-05:00" endTime="2013-12-03T14:00:41.9065288-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.IsActiveTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 353
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a0e5b342-54d1-4a9d-9830-963036719f2c" testId="83daadfa-8ebd-87ab-4d96-5632d38f5615" testName="IdTest" computerName="VMANNMBPS1" duration="00:00:00.0325678" startTime="2013-12-03T14:00:41.9534044-05:00" endTime="2013-12-03T14:00:42.0159052-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.IdTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 368
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="018a8584-f071-4caa-8c0f-c2207e762837" testId="bd6b98a8-9bf5-9da0-1799-6b3f984da5da" testName="HasOtherDetailsTest" computerName="VMANNMBPS1" duration="00:00:00.0271548" startTime="2013-12-03T14:00:42.0159052-05:00" endTime="2013-12-03T14:00:42.0627808-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.HasOtherDetailsTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 383
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a07e8150-87f5-4184-a851-f8d503428cb6" testId="497ed548-6c7e-0ac6-9a12-d0f23c66f67d" testName="FileTest" computerName="VMANNMBPS1" duration="00:00:00.0272001" startTime="2013-12-03T14:00:42.0784060-05:00" endTime="2013-12-03T14:00:42.1252816-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.FileTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 398
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87b63aac-5880-4d5b-b4fc-678dfa321cce" testId="81994bc9-cb55-1a65-abed-e88772cd559f" testName="EnableBypassKeyTest" computerName="VMANNMBPS1" duration="00:00:00.0316917" startTime="2013-12-03T14:00:42.1252816-05:00" endTime="2013-12-03T14:00:42.1721572-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.EnableBypassKeyTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 413
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7190491-980d-4868-8bb7-c9cda82ba7ee" testId="f18fb85e-a36c-0664-87bf-72c42015f160" testName="DescTest" computerName="VMANNMBPS1" duration="00:00:00.0209616" startTime="2013-12-03T14:00:42.1877824-05:00" endTime="2013-12-03T14:00:42.2190328-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.DescTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 428
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b87a8e32-587b-4870-92b0-4926ba86f6d3" testId="59c41cb2-74ac-bfef-c517-c0f0209c7e8d" testName="DatasourceTest" computerName="VMANNMBPS1" duration="00:00:00.0227489" startTime="2013-12-03T14:00:42.2346580-05:00" endTime="2013-12-03T14:00:42.2659084-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.DatasourceTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 443
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="01341375-6a68-43d3-87f7-8e9373719d39" testId="0fb48b1f-5287-d0cd-8424-7ff3600e1c33" testName="DataProviderTest" computerName="VMANNMBPS1" duration="00:00:00.0503052" startTime="2013-12-03T14:00:42.2815336-05:00" endTime="2013-12-03T14:00:42.3440344-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.DataProviderTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 458
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="045119e0-3c99-4f77-ae6d-e861e9dbdcb5" testId="95dfe3cd-0145-0629-6a90-61f9656ee021" testName="DatabaseNameTest" computerName="VMANNMBPS1" duration="00:00:00.0279669" startTime="2013-12-03T14:00:42.3909100-05:00" endTime="2013-12-03T14:00:42.4534108-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.DatabaseNameTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 473
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="933e42bb-6160-48f7-86d6-0f803b5d84c5" testId="0a39283f-c98c-b216-bba4-06227ae62cb4" testName="CreatedDateTest" computerName="VMANNMBPS1" duration="00:00:00.0279379" startTime="2013-12-03T14:00:42.4534108-05:00" endTime="2013-12-03T14:00:42.5002864-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.CreatedDateTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 488
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="baf2464a-ae16-4d3f-af48-fc2e607b4d5b" testId="95dba83d-d741-54a7-d063-dee9b0380435" testName="CreatedByTest" computerName="VMANNMBPS1" duration="00:00:00.0279728" startTime="2013-12-03T14:00:42.5159116-05:00" endTime="2013-12-03T14:00:42.5627872-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.CreatedByTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 503
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4dd7556-3414-4ae7-959f-16c0fe2b272b" testId="377b2dea-c631-6b45-86e0-61d960510808" testName="BusinessOwnerTest" computerName="VMANNMBPS1" duration="00:00:00.0471146" startTime="2013-12-03T14:00:42.5627872-05:00" endTime="2013-12-03T14:00:42.6565384-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.BusinessOwnerTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 518
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4fdbb679-e7ca-4273-a26a-3b574f6f473e" testId="2868044b-a93d-334a-8734-167c8d60dfc9" testName="AccessUserIdTest" computerName="VMANNMBPS1" duration="00:00:00.0346111" startTime="2013-12-03T14:00:42.6721636-05:00" endTime="2013-12-03T14:00:42.7190392-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.AccessUserIdTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 533
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6c2c1fe4-ff14-476c-8985-1472e9d8d51b" testId="1e694666-5b0c-eb8b-94b7-67e176165dda" testName="AccessPasswordTest" computerName="VMANNMBPS1" duration="00:00:00.0260231" startTime="2013-12-03T14:00:42.7346644-05:00" endTime="2013-12-03T14:00:42.7659148-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.AccessPasswordTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 548
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f165c078-6fd7-45e6-bde8-ab5c0a8370da" testId="7b56adfc-d2c8-fc02-4a73-a66205c5f08c" testName="SendPropertyChangingTest" computerName="VMANNMBPS1" duration="00:00:00.0319386" startTime="2013-12-03T14:00:42.7815400-05:00" endTime="2013-12-03T14:00:42.8284156-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.SendPropertyChangingTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 560
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="264042ce-46ed-4929-96bc-11e74d480b4b" testId="d3294518-ecbe-f0c2-8259-c47de2696a3f" testName="SendPropertyChangedTest" computerName="VMANNMBPS1" duration="00:00:00.0215136" startTime="2013-12-03T14:00:42.8284156-05:00" endTime="2013-12-03T14:00:42.8596660-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. A method that does not return a value cannot be verified.</Message>
+          <StackTrace>   at TestProject1.ProjectTest.SendPropertyChangedTest() in C:\Projects\C#\BTSS V3\TestProject1\ProjectTest.cs:line 573
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="efacd9f1-d472-45c6-a892-12a359ca85b0" testId="c470edd7-1d6c-26c8-1cdd-22d4290f34bd" testName="SaveTest" computerName="VMANNMBPS1" duration="00:00:05.5625712" startTime="2013-12-03T14:00:42.8752912-05:00" endTime="2013-12-03T14:00:48.4378624-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0491ec3-b40e-40d8-8826-a42d141fefa3" testId="166328c6-810d-a56b-65af-d97df5b11702" testName="IsProjectAllowToDeleteTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad78f4ab-fdb7-47dc-a13b-3a7afa375e88" testId="44a0e1b2-7965-31aa-899b-efdd66473391" testName="GetProjectListForReportSQLTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="58b3b271-a239-4220-adc6-1542e7d5dfd6" testId="e6ed4dc5-4758-4557-0f6b-37c6643c20b4" testName="GetProjectListForReportTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="bec1b78d-bf17-40e7-a4cc-35b54cc245ec" testId="22909dd9-7cde-bf21-d09d-4f7a6302c063" testName="GetProjectListTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="62ce4e6d-aea4-4522-adef-f6fe4f2e7c0d" testId="aecb608b-5a16-98ae-b52a-13f05680af74" testName="GetProjectDetailsTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3a8f597-6eb2-45b2-b3ff-dbbc02ad973b" testId="2480de0b-4a49-57ce-f7ba-0d2ae90c5e4c" testName="detach_UserProjectTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="cca75cae-d2e1-4e2b-8cbd-3f8ea7602c29" testId="641b9662-6676-7585-617e-8a504e301795" testName="attach_UserProjectTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="a9c55ff8-9cbc-490b-915b-238aeca23548" testId="cbc1c766-6c15-885a-4b5c-3b59c3e7b52a" testName="ProjectConstructorTest1" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="45ee7307-4ec3-4e75-b203-58df73f146d6" testId="35a079d4-9b1b-d4bb-2845-faebfa8db84d" testName="ProjectConstructorTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce43f92f-d07f-49fc-ab4e-9dbb51bf2fb1" testId="6051909d-235a-43a7-ec37-ad52c453833b" testName="UserProjectTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="582385df-5cd9-4149-a9e4-f78d7b77afd0" testId="dc52fa1b-d50f-b1b1-665f-f4093ddc5b17" testName="UserNameTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="df351f23-c2f7-4b62-a2b6-3d6b5dbcebd2" testId="14e00c4c-4470-9547-7064-3173a6b9a85f" testName="UserGroupTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0849c043-39db-4893-a81b-8e74522eb7f8" testId="4d23f9c7-aee8-a76a-06b1-26b54faf615f" testName="TimeStampTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ef207002-d89f-4ecb-bffc-9dcae3cccab7" testId="469d3ade-ff40-300b-9fda-5ced53a66eb0" testName="PasswordTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="56b74194-c4a5-4e54-b88c-54def7d6381a" testId="2c2a1cd4-506d-358d-fac7-22bf56a5c0e0" testName="OperationTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="25ebcef8-536b-4a2b-ab20-371c5fef7bca" testId="22009a20-a7d1-12fc-add4-c8fff320dc64" testName="ModifiedDateTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d945960-61bc-4a72-8cf8-6f4dfe81ec44" testId="7bfd7ca1-fceb-45b6-da03-a4223c66c3cc" testName="ModifiedByTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="9dfb653a-3cfc-49ee-a0ae-66b7c8591e76" testId="6ca430f0-c317-9119-7387-1e3bf64192e3" testName="MiddleNameTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="692df81b-5b5b-44d7-989a-7c4dbd7df9d4" testId="abf3a2af-ab02-0f4b-52d0-c8af68f2627b" testName="LastNameTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a98d4b5-d531-4d9b-9125-f5ad1df85c75" testId="3f262e5a-fd32-0232-ad09-5c4990ced4d3" testName="IdTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="6c52cd3c-20c7-48fe-9443-028aba1ce712" testId="28ef9b35-5ae5-3b55-3d08-30e669a1b534" testName="FirstNameTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="f19f0935-a82b-459b-b52b-89f5ea21b5fc" testId="43ebcbeb-8b7f-33be-80e5-53d71eb4ec97" testName="DataUserProjectTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="dfdec4df-5e8e-43d6-8107-a2db02c4ccaf" testId="f28d0f24-ecc3-7de7-5065-22b58cb52825" testName="DataUserGroupTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="428b82ff-2eed-49c1-ae61-033183ba9de6" testId="9b8112c6-e0ec-8e44-1226-9563b2887711" testName="CreatedDateTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a480a10-0183-40db-90f4-78e7aa28262a" testId="916f0f2d-cb08-728b-bb58-ff47b98e1656" testName="CreatedByTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="7fe3c158-7231-4d8a-aeba-491e32010dc6" testId="8aa4aaea-7ba6-38c2-9046-6f99f835cd0f" testName="SendPropertyChangingTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="5ca10dc7-dcb7-408b-b17a-c88826b566ec" testId="1f655269-6845-b00b-96c5-a12e456c80cc" testName="SendPropertyChangedTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0151b77a-b0c2-4e84-87ff-5f20347871af" testId="54c40540-5274-3874-6d7f-060eff454790" testName="SaveTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="11127939-3b30-4090-bf97-50e0985ff5cd" testId="20b1e5b8-e310-8a4b-8623-a7a20183393f" testName="IsUserValidTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="dac75b89-2076-4b19-95c8-9b1cf2327c23" testId="3f3604ef-ea2f-f52f-6f53-88b2aa0a7e45" testName="GetUsersProjectListTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="11a00121-e325-41b0-942f-c2fce531d3db" testId="4c1b2359-6441-bfdb-9821-1a61ef2fd64e" testName="GetUserProjectsTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="96926e6c-0010-4852-a138-2824c3938623" testId="1973d340-d998-c55b-824b-3f0b36d8d979" testName="GetUserListTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="463035e6-2186-4918-8919-9c80083ce344" testId="d3b53f43-f281-4819-aed4-d6b69d6432fb" testName="GetUserGroupTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="19444e6d-c937-40e9-be7c-7f959dec4c1e" testId="93bdbe77-bed0-850e-02dc-b91a05b5851e" testName="GetUserDetailsByUserNameTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="afa198c5-5b24-4230-bb63-3b5ca96e2032" testId="97be726a-10a7-c53e-97e1-7254e284ee0b" testName="GetUserDetailsTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="fdc7055a-99a6-4cdf-8446-ca46e966af43" testId="7db0d747-d7df-da55-baae-39beafe63572" testName="GetAccessRightsTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8830fa9-857e-4350-a3d9-1d2034e5fbd7" testId="03971d42-3c22-ca7c-0718-417c2c14fc7f" testName="DisposeTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="336caf38-4007-43ef-9542-e5e35bedb4ec" testId="6d83cf61-acd1-b24e-63d8-3548d3072f10" testName="detach_UserProjectTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b37fae9e-e2ef-4f73-8841-f918b05e91d4" testId="367c1214-2e3c-cda4-77d6-c7db749191fe" testName="detach_UserGroupTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0085511d-0286-4470-9cfe-d6e7b2c080ad" testId="b4a0cd3a-bebc-06bd-f7e4-18372beff22a" testName="attach_UserProjectTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4fd732b1-d102-466c-b552-707484d19e4a" testId="e31fee9d-bcf2-0886-bd34-5cf1bb3a3e32" testName="attach_UserGroupTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c7dbc10-db7a-41ee-9b7d-1e364faf6e73" testId="ecc0c380-c7da-4c1b-837f-342b54df4531" testName="UserConstructorTest1" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="8192f596-403a-4185-ba0f-472d234debcc" testId="540f0c17-3ca7-83ce-ee69-c545db0ff423" testName="UserConstructorTest" computerName="VMANNMBPS1" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-05:00" endTime="0001-01-01T00:00:00.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

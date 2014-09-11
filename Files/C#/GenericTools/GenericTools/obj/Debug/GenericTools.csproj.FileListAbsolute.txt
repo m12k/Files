@@ -1,0 +1,38 @@
+C:\Test Projects\GenericTools\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Test Projects\GenericTools\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Test Projects\GenericTools\WindowsFormsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Test Projects\GenericTools\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormExcelToSQL.resources
+C:\Test Projects\GenericTools\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.FormGroups.resources
+C:\Test Projects\GenericTools\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Test Projects\GenericTools\WindowsFormsApplication1\obj\Debug\GenericTools.csproj.GenerateResource.Cache
+C:\Test Projects\GenericTools\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Test Projects\GenericTools\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Test Projects\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.exe
+C:\Test Projects\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.pdb
+C:\Test Projects\GenericTools\GenericTools\bin\Debug\WindowsFormsApplication1.exe
+C:\Test Projects\GenericTools\GenericTools\bin\Debug\WindowsFormsApplication1.pdb
+C:\Test Projects\GenericTools\GenericTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Test Projects\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormExcelToSQL.resources
+C:\Test Projects\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormGroups.resources
+C:\Test Projects\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Test Projects\GenericTools\GenericTools\obj\Debug\GenericTools.csproj.GenerateResource.Cache
+C:\Projects\C#\GenericTools\GenericTools\bin\Debug\BTSSSQL.sdf
+C:\Projects\C#\GenericTools\GenericTools\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Projects\C#\GenericTools\GenericTools\bin\Debug\WindowsFormsApplication1.exe
+C:\Projects\C#\GenericTools\GenericTools\bin\Debug\WindowsFormsApplication1.pdb
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormExcelToSQL.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormGroups.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormInterface.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormPagination.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormTesting.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\GenericTools.csproj.GenerateResource.Cache
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.exe
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.pdb
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\Interop.JRO.dll
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\GenericTools.csproj.ResolveComReference.cache
+C:\Projects\C#\GenericTools\GenericTools\bin\Debug\Interop.JRO.dll
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormEncryption.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.FormDraggable.resources
+C:\Projects\C#\GenericTools\GenericTools\obj\Debug\WindowsFormsApplication1.UserControl1.resources

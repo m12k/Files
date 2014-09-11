@@ -1,0 +1,11 @@
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\FluentNHibernateTesting.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\FluentNHibernateTesting.pdb
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\FluentNHibernate.dll
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\Iesi.Collections.dll
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\NHibernate.dll
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\FluentNHibernate.xml
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\Iesi.Collections.xml
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\bin\Release\NHibernate.xml
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\obj\x86\Release\FluentNHibernateTesting.exe
+C:\Projects\C#\ConsoleTesting\ConsoleApplicationTesting\FluentNHibernateTesting\obj\x86\Release\FluentNHibernateTesting.pdb

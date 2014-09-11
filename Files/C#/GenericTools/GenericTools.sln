@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTools", "GenericTools\GenericTools.csproj", "{AA180F2D-70B4-4101-BF52-7571501B4A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{DB102483-2128-450E-ACD0-B39AE4273722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA180F2D-70B4-4101-BF52-7571501B4A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA180F2D-70B4-4101-BF52-7571501B4A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA180F2D-70B4-4101-BF52-7571501B4A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA180F2D-70B4-4101-BF52-7571501B4A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB102483-2128-450E-ACD0-B39AE4273722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB102483-2128-450E-ACD0-B39AE4273722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB102483-2128-450E-ACD0-B39AE4273722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB102483-2128-450E-ACD0-B39AE4273722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
